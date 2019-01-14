@@ -58,14 +58,12 @@
 >
 >**3**. Plane ticket prices, events like weddings, or trips out of the country are not valid excuses for missing the final exam at its scheduled time. I will not make accommodations for anything other than an issue vetted by the dean of students. 
 
-## Misc:
+**Attendance:** Attending class is one of the primary keys to doing well in this class. Students with excessive absences may be reported to the dean of students and may receive a grade of F in the class. There is no distinction made between excused and unexcused. Make-up exams will be given only if the student has a reasonable excuse and if the instructor is contacted within 24 hours of the exam and arrangements are made for the make-up prior to the next class meeting. NO make-ups will be given for missed quizzes. Students are expected to be in the classroom when class begins and stay the entire period.
 
-- Attending class is one of the primary keys to doing well in this class. Students may be dropped for excessive absences. There is no distinction made between excused and unexcused. 
+**Academic Policies:** Students should refer to the current MSU Student Handbook and Activities Calendar and the MSU Graduate Bulletin for university policies on academic dishonesty, class attendance, student rights and activities.
+Disability Policy: In accordance with the law, MSU provides academic accommodations to students with documented disabilities. Students with disabilities must be registered with Disability Support Services before classroom accommodations can be provided. The DSS office is located in Clark Student Center, Room 168, phone 397-4140.
 
-- Make-up exams are not given. If I see fit, then I will replace a missed exam with your final exam test grade.  If you do miss an exam without prior approval, a letter from the dean of students will be needed as an excuse
+**Counseling Center:** MSU offers personal, group, career, and academic counseling. Students are encouraged to take advantage of these free services by contacting the Counseling Center: Room 108 Clark Student Center, 397-4618, counseling@mwsu.edu.
 
-- A number of programming assignments will be made to code and execute. Microsoft Visual Studio 2013 or 2015 is recommended, although depending on class opinion, we may use QT4 for some assignments. 
+**Late Policy:** Assignments and programs will be accepted late up to two weeks after the due date with a penalty of 5 points per day. Late work will not be accepted for credit after two days from the due date.
 
-- Programs containing syntax errors are unacceptable and will be returned without grading (your programs must work). All submitted programs need to be submitted via Github. 
-
-- Periodically homework assignments will be taken up and graded. It is the student's responsibility to keep up with assignments and to ask questions over the assigned work, even if absent. All homework assignments are due at the specified time that may or may not be in conjunction with a class day. All assignments / homeworks will be uploaded via Github.
