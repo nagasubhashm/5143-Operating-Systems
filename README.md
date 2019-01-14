@@ -39,7 +39,14 @@
     - Disk Cache
 - File Management
    
+## Projects
 
+- Implement a Shell
+- Threads (semaphore, deadlock)
+- Virtual Memory (addressing, swapping pages in and out)
+- Cache Memory (addressing, swapping blocks)
+- CPU Scheduling
+- File System simulation
 
 ## Grading:	
 
