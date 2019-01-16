@@ -428,7 +428,7 @@ fg n
 
 ## 7 – FILE PERMISSIONS
 
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/3z2N0w3n2l303y2t323G/linux-permissions-chart.png)
+<img src="https://d3vv6lp55qjaqc.cloudfront.net/items/3z2N0w3n2l303y2t323G/linux-permissions-chart.png" width="300">
 
 ```
 Linux chmod example
