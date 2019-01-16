@@ -1,4 +1,5 @@
-# What is a Bash Script?
+# Bash Scripting - An introduction to bash.
+#### Due: NA
 
 ## Introduction
 
