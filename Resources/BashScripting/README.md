@@ -3,7 +3,7 @@
 
 ## Introduction
 
-A Bash script is a plain text file which contains a series of commands. These commands are a mixture of commands we would normally type ourselves on the command line (such as ls or cp for example) and commands we could type on the command line but generally wouldn't (you'll discover these over the next few pages). An important point to remember though is:
+A Bash script is a plain text file which contains a series of commands. These commands are a mixture of commands we would normally type ourselves on the command line (such as `ls` or `cp` for example) and commands we could type on the command line but generally wouldn't (you'll discover these over the next few pages). An important point to remember though is:
 
 >Anything you can run normally on the command line can be put into a script and it will do exactly the same thing. Similarly, anything you can put into a script can also be run normally on the command line and it will do exactly the same thing.
 
@@ -80,7 +80,7 @@ This is done for a few different reasons.
 
 - It allows us to have several different versions of a program installed. We can control which one gets executed based on where it sits in our `$PATH`.
 - It allows for convenience. As you saw above, the first directory for myself is a bin directory in my home directory. This allows me to put my own scripts and programs there and then I can use them no matter where I am in the system by just typing their name. I could even create a script with the same name as a program (to act as a wrapper) if I wanted slightly different behavior.
-- It increases safety - For example a malicious user could create a script called ls which actually deletes everything in your home directory. You wouldn't want to inadvertently run that script. But as long as it's not in your `$PATH` that won't happen.
+- It increases safety - For example a malicious user could create a script called `ls` which actually deletes everything in your home directory. You wouldn't want to inadvertently run that script. But as long as it's not in your `$PATH` that won't happen.
 
 If a program or script is not in one of the directories in your `$PATH` then you can run it by telling Bash where it should look to find it. You do so by including either an absolute or relative path in front of the program or script name. You'll remember that dot ( . ) is actually a reference to your current directory. Assuming this script is in my home directory I could also have run it by using an `absolute path`.
 
