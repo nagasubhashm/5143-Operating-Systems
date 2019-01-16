@@ -180,8 +180,8 @@ There are a few other variables that the system sets for you to use as well.
 
 | Variable      |       Description                                             |
 |:--------------|:--------------------------------------------------------------|
-|$**0** | The name of the Bash script. |
-|**$**1 | $9 | The first 9 arguments to the Bash script. (As mentioned above.) |
+|**$0** | The name of the Bash script. |
+|**$1** | $9 | The first 9 arguments to the Bash script. (As mentioned above.) |
 |**$#** | How many arguments were passed to the Bash script. |
 |**$@** | All the arguments supplied to the Bash script. |
 |**$?** | The exit status of the most recently run process. |
@@ -193,7 +193,7 @@ There are a few other variables that the system sets for you to use as well.
 |**$LINENO** | Returns the current line number in the Bash script. |
 
 
-- The command`env` will show you a listing of other variables which you may also refer to.
+- The command `env` will show you a listing of other variables which you may also refer to.
 
 Some of these variables may seem useful to you now. Others may not. As we progress to more complex scripts in later sections you will see examples of how they can be useful.
 
