@@ -2,7 +2,7 @@
 
 Good Article on Threading: http://jessenoller.com/blog/2009/02/01/python-threads-and-the-global-interpreter-lock
 
-# Multithreading - Creating Threads 
+### Multithreading - Creating Threads 
 
 Source: http://www.bogotobogo.com/python/Multithread/
 
