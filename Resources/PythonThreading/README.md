@@ -4,7 +4,6 @@ Good Article on Threading: http://jessenoller.com/blog/2009/02/01/python-threads
 Another good resource: https://hackernoon.com/synchronization-primitives-in-python-564f89fee732
 
 
-
 ## The threading module
 
 Using threads allows a program to run multiple operations concurrently in the same process space. Through out this tutorials, we'll be using `threading` module. Note that there is another module called `thread` which has been renamed to `_thread` in Python 3. Actually, the `threading` module constructs higher-level threading interfaces on top of the lower level `_thread` module. We rarely touch the low level `_thread` module.
