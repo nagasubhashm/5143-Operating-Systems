@@ -1,4 +1,4 @@
-## Important
+## Shell Organizer - Python project example
 
 - This is an example for ***organizing*** your shell ONLY.
 - The command functions are implemented incorrectly (basically calls to the OS's existing shell).
