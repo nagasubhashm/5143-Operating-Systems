@@ -1,8 +1,9 @@
 # Python Threading - Creating Threads with Python
 
 Good Article on Threading: http://jessenoller.com/blog/2009/02/01/python-threads-and-the-global-interpreter-lock
+Another good resource: https://hackernoon.com/synchronization-primitives-in-python-564f89fee732
 
-Source: http://www.bogotobogo.com/python/Multithread/
+
 
 ## The threading module
 
@@ -1576,3 +1577,4 @@ Output:
 
 --------------------------------------------------------
 
+<sub>Source: http://www.bogotobogo.com/python/Multithread/<sub>
