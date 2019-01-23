@@ -1,5 +1,4 @@
 # Bash Scripting - An introduction to bash.
-#### Due: NA
 
 ## Introduction
 

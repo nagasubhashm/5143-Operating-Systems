@@ -1,5 +1,4 @@
 # Python Threading - Creating Threads with Python
-#### Due: NA
 
 Good Article on Threading: http://jessenoller.com/blog/2009/02/01/python-threads-and-the-global-interpreter-lock
 
