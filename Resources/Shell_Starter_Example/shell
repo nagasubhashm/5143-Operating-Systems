@@ -2,6 +2,7 @@
 from cmd_pkg import commands 
 import threading
 import sys
+from subprocess import call # for demo purposes only
 
 def run_command(cmd,args=None,flags=None):
 
@@ -13,11 +14,16 @@ def run_command(cmd,args=None,flags=None):
     c.start()
     c.join()
 
+def cat(file):
+    call(["cat", file])
+
+
 def ls():
     pass
 
 def pwd():
     pass
+
 
 if __name__ == '__main__':
 
@@ -37,11 +43,16 @@ if __name__ == '__main__':
     while True:
         cmd = raw_input('% ')
         cmd = cmd.split()
-        print(cmd)
         
         if cmd[0] == 'cat':
-            run_command(commands.cat,cmd[1])
+            cat(cmd[1])
             print()
+        elif cmd[0] == 'grep':
+            if(len(cmd) < 3):
+                run_command(commands.grepusage)
+            else:
+                run_command(commands.grep,cmd[1],cmd[2])
+                #commands.grep(cmd[1],cmd[2])
 
         if cmd[0] == 'exit':
             break
