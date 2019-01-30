@@ -1,3 +1,6 @@
+"""
+Basic thread example
+"""
 import threading
 
 def f():

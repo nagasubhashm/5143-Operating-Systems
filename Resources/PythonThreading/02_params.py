@@ -1,3 +1,7 @@
+"""
+Basic thread example but with params being passed into function.
+Threading.thread expects a tuple, and the trailing comma is intentional
+"""
 import threading
 
 def f(id):
