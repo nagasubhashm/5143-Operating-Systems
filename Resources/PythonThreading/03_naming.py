@@ -12,12 +12,12 @@ def f1():
 
 def f2():
     print threading.currentThread().getName(), 'Starting'
-    time.sleep(2)
+    time.sleep(1)
     print threading.currentThread().getName(), 'Exiting'
 
 def f3():
     print threading.currentThread().getName(), 'Starting'
-    time.sleep(3)
+    time.sleep(1)
     print threading.currentThread().getName(), 'Exiting'
 
 t1 = threading.Thread(target=f1) # use default name
