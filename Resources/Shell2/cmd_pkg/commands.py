@@ -6,4 +6,4 @@ from grep import grep
 from grep import grepusage
 
 if __name__=='__main__':
-  ls()
+  pass

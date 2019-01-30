@@ -14,6 +14,7 @@ logging.basicConfig(level=logging.DEBUG,
 
 def n():
     logging.debug('Starting')
+    time.sleep(5) 
     logging.debug('Exiting')
 
 """
@@ -22,7 +23,7 @@ Note that if we do not have the time.sleep(5) in the thread function d(), the da
 
 def d():
     logging.debug('Starting')
-    time.sleep(5)               # comment out for different result
+    #time.sleep(5)               # comment out for different result
     logging.debug('Exiting')
 
 

@@ -35,6 +35,6 @@ if __name__ == '__main__':
     t.start()
 
     # Try 3.0 and 7.0 to see the difference
-    d.join(7.0)
+    d.join(3.0)
     print 'd.isAlive()', d.isAlive()
     t.join()

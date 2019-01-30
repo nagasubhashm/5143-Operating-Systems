@@ -1,12 +1,8 @@
 #!/usr/bin/env python
-from cmd_pkg import test 
-#from cmd_pkg import *
-#import cmd_pkg
+from cmd_pkg import commands 
 import threading
 import sys
 from subprocess import call # for demo purposes only
-
-print(dir(test))
 
 def run_command(cmd,args=None,flags=None):
 
