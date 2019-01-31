@@ -117,7 +117,7 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 | `!x`                | this loads command `x` from your history so you can run it again |
 | `chmod xxx`         | change modify permission | 
 
->Note: Every command should print out help for the command if the user enters `command --help`. Look at [docstrings](https://realpython.com/documenting-python-code/).
+>Note: Every command should print out help for the command if the user enters `command --help`. Look at [docstrings](https://realpython.com/documenting-python-code/) as one possible solution.
 ## Deliverables
 
 ***Part 1 - Group Selection***
