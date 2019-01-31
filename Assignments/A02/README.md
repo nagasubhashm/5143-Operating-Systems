@@ -117,6 +117,7 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 | `!x`                | this loads command `x` from your history so you can run it again |
 | `chmod xxx`         | change modify permission | 
 
+>Note: Every command should print out help for the command if the user enters `command --help`. Look at [docstrings](https://realpython.com/documenting-python-code/).
 ## Deliverables
 
 ***Part 1 - Group Selection***
@@ -141,7 +142,7 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
   - Additional files are ok, for example if you want to place each "command" in a seperate file for organizational purposes, that would be not only acceptable, but encouraged.
 
 ***Part 3 and Part 4***
-#### `driver.py`
+#### `shell.py`
 
 - This file is where your shell code will exist and be executed from. 
 - You should code in a modular format with comments that are commensurate with graduate work.
@@ -158,7 +159,7 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
     - Passing of portions of the shell as working when they don't will affect your grade considerably.
 - A references section that cites any sources used to assist your group in creating the shell. 
     - Using some external code is ok as long as you follow the following guidelines:
-        - Cite the source of the code in the `README.md` and in the comments of the `driver.py` file. 
+        - Cite the source of the code in the `README.md` and in the comments of the `shell.py` file. 
         - Only use small portions of external code. 
    - I reserve the right to make any final decisions on whether your group is obtaining too much external help. If your not sure, ask.
 - Group Members
