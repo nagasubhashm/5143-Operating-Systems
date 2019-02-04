@@ -103,6 +103,9 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 |                    | `-n`| how many lines to display|
 | `grep`             | `'keyword' file` | search a file for keywords |
 | `wc`             | `file` | count number of lines/words/characters in file |
+|                  | `-l` | count number of lines in file |
+|                  | `-m` | count number of characters in file |
+|                  | `-w` | count number of words in file |
 
 | Command | Meaning      |
 |--------------------------|---------|
