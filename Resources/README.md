@@ -9,4 +9,4 @@
  | [Shell_Starter_Example](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Resources/Shell_Starter_Example) | [ Shell Organizer ](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Resources/Shell_Starter_Example) | [ Python project example](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Resources/Shell_Starter_Example) | [N/A](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Resources/Shell_Starter_Example) |
  | [os_pages](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Resources/os_pages) | [ Resources os_pages ](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Resources/os_pages) | [ No Description](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Resources/os_pages) | [N/A](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Resources/os_pages) |
 
-<sup>Last Updated: 2019-02-04 (Mon @ 15:37)</sup>
+<sup>Last Updated: 2019-02-04 (Mon @ 15:49)</sup>
