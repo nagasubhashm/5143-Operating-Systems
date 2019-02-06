@@ -34,15 +34,16 @@
 - Message Passing 
 - Readers/Writers Problem 
 
-|           |       Key Words                   |           |
-|:--------:|:-------------------------:|:--------:|
-| atomic   | binary semaphore          | blocking |
-| busy waiting | concurrency | concurrent processes |
-| coroutine| counting semaphore| critical resource | 
-| critical section | deadlock| general semaphore | message passing | 
-| monitor| mutual exclusion | mutex| nonblocking| 
-| race condition | semaphore| spin waiting | starvation| strong semaphore | 
-| weak semaphore| | 
+|                  |     Key Words      |                      |
+|:----------------:|:------------------:|:--------------------:|
+|      atomic      |  binary semaphore  |       blocking       |
+|   busy waiting   |    concurrency     | concurrent processes |
+|    coroutine     | counting semaphore |  critical resource   |
+| critical section |      deadlock      |  general semaphore   |
+| message passing  |      monitor       |   mutual exclusion   |
+|      mutex       |    nonblocking     |    race condition    |
+|    semaphore     |    spin waiting    |      starvation      |
+| strong semaphore |   weak semaphore   |                      |
 
 ### Concurrency: Deadlock and Starvation
 
@@ -53,14 +54,14 @@
 - An Integrated Deadlock Strategy
 - Dining Philosophers Problem
 
-|           |       Key Words                   |           |
-|:--------:|:-------------------------:|:--------:|
-| banker’s algorithm | circular wait | consumable resource 
-| deadlock | deadlock avoidance | deadlock detection | 
-| deadlock prevention | hold and wait | joint progress diagram |
-| memory barrier | message | mutual exclusion |
-| pipe | preemption | resource allocation graph | 
-|reusable resource | spinlock | starvation | 
+|                     |     Key Words      |                           |
+|:-------------------:|:------------------:|:-------------------------:|
+| banker’s algorithm  |   circular wait    |    consumable resource    |
+|      deadlock       | deadlock avoidance |    deadlock detection     |
+| deadlock prevention |   hold and wait    |  joint progress diagram   |
+|   memory barrier    |      message       |     mutual exclusion      |
+|        pipe         |     preemption     | resource allocation graph |
+|  reusable resource  |      spinlock      |        starvation         |
 
 ### Memory Management
 - Job Queue
