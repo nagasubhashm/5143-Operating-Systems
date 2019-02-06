@@ -93,6 +93,7 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 | `cp `            | `file1 file2`    | copy file1 and call it file2 |
 | `mv`             | `file1 file2`    | move or rename file1 to file2 |
 | `rm`             | `file`           | remove a file |
+|                  | `fil*e` or `*file` or `file*     | removes files that match a wildcard |
 | `rmdir`             | `directory`  | remove a directory |
 | `cat`             | `file` | display a file |
 |                   | `file1`,`file2`,`fileN` | display each of the files as if they were concatenated |
@@ -101,7 +102,8 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 |                    | `-n` | how many lines to display |
 | `tail`             | `file` | display the last few lines of a file |
 |                    | `-n`| how many lines to display|
-| `grep`             | `'keyword' file` | search a file for keywords |
+| `grep`             | `'keyword' file` | search a file(s) files for keywords and print lines where pattern is found |
+|                   | `-l` | only return file names where the word or pattern is found |
 | `wc`             | `file` | count number of lines/words/characters in file |
 |                  | `-l` | count number of lines in file |
 |                  | `-m` | count number of characters in file |
