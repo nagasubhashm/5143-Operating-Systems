@@ -1,59 +1,101 @@
 #!/usr/bin/env python
-from cmd_pkg import commands 
 import threading
 import sys
-from subprocess import call # for demo purposes only
+from subprocess import call  # for demo purposes only
 
-def run_command(cmd,args=None,flags=None):
+def cat(**kwargs):
+    command = ["cat"]
+    if 'params' in kwargs:
+        params = kwargs['params']
+    command.extend(params)
+    call(command)
 
-    if args:
-        c = threading.Thread(target=cmd, args=(args,))
+
+def ls(**kwargs):
+    command = ["ls"]
+    if 'params' in kwargs:
+        params = kwargs['params']
     else:
-        c = threading.Thread(target=cmd)
+        params = []
+    command.extend(params)
+    call(command)
+
+
+def pwd(**kwargs):
+    command = ["pwd"]
+    if 'params' in kwargs:
+        params = kwargs['params']
+    else:
+        params = []
+    command.extend(params)
+    call(command)
+
+
+def exit(**kwargs):
+    sys.exit()
+
+
+class CommandHelper(object):
+    def __init__(self):
+        self.commands = {}
+        self.commands['ls'] = ls
+        self.commands['cat'] = cat
+        self.commands['pwd'] = pwd
+        self.commands['exit'] = exit
+
+    def invoke(self, **kwargs):
+        if 'cmd' in kwargs:
+            cmd = kwargs['cmd']
+        else:
+            cmd = ''
+
+        if 'params' in kwargs:
+            params = kwargs['params']
+        else:
+            params = []
+
+        if 'thread' in kwargs:
+            thread = kwargs['thread']
+        else:
+            thread = False
+
+        # One way to invoke using dictionary
+        if not thread:
+            self.commands[cmd](params=params)
+        else:
+            # Using a thread ****** broken right now *********
+            if len(params) > 0:
+                c = threading.Thread(target=self.commands[cmd], args=tuple(kwargs))
+            else:
+                c = threading.Thread(target=self.commands[cmd])
+
+            c.start()
+            c.join()
         
-    c.start()
-    c.join()
 
-def cat(file):
-    call(["cat", file])
-
-
-def ls():
-    pass
-
-def pwd():
-    pass
+    def exists(self, cmd):
+        return cmd in self.commands
 
 
 if __name__ == '__main__':
 
-    # if len(sys.argv) < 2:
-    #     print("usage: python driver.py cmd where cmd = 'ls' or 'pwd', etc.")
-    #     sys.exit(0)
- 
-    # cmd = sys.argv[1]
-    
-    # if cmd == 'ls':
-    #     run_command(commands.ls,sys.argv[2])
-    # elif cmd == 'pwd':
-    #     run_command(commands.pwd)
-    # elif cmd == 'cat':
-    #     run_command(commands.cat,sys.argv[2])
+    ch = CommandHelper()
 
     while True:
-        cmd = raw_input('% ')
-        cmd = cmd.split()
-        
-        if cmd[0] == 'cat':
-            cat(cmd[1])
-            print()
-        elif cmd[0] == 'grep':
-            if(len(cmd) < 3):
-                run_command(commands.grepusage)
-            else:
-                run_command(commands.grep,cmd[1],cmd[2])
-                #commands.grep(cmd[1],cmd[2])
+        # get input from terminal (use input if raw_input doesn't work)
+        command_input = raw_input('% ')
 
-        if cmd[0] == 'exit':
-            break
-        
+        # remove command from params (very over simplified)
+        command_input = command_input.split()
+
+        # params are all but first position in list
+        params = command_input[1:]
+
+        # pull actual command from list
+        cmd = command_input[0]
+
+        # if command exists in our shell
+        if ch.exists(cmd):
+            ch.invoke(cmd=cmd, params=params,thread=True)
+        else:
+            print("Error: command %s doesn't exist." % (cmd))

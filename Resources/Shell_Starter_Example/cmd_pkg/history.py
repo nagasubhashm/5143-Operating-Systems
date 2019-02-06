@@ -18,7 +18,7 @@ def history(**kwargs):
 
     hout = ""
     for h in history:
-        hout += " "+str(index).zfill(3)+" "+h.strip()
+        hout += " "+str(index).zfill(3)+" "+h.strip()+"\n"
         index += 1
 
     return hout
