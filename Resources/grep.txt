@@ -1,7 +1,0 @@
-https://stackoverflow.com/questions/3277503/how-to-read-a-file-line-by-line-into-a-list
-
-https://www.geeksforgeeks.org/string-find-python/
-
-https://www.hackerrank.com/challenges/python-string-split-and-join/problem
-
-
