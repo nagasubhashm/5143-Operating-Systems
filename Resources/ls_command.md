@@ -73,8 +73,7 @@ Gives a `1` in this case.
 ```
 (st_mode=33188, st_ino=5254022, st_dev=16777220, st_nlink=1, st_uid=503, st_gid=20, st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
                                                                  ^
-                                                                 |
-      
+
 ```
 ```python
 import os
@@ -87,7 +86,6 @@ getpwuid(os.stat(filename).st_uid).pw_name,
 ```
 (st_mode=33188, st_ino=5254022, st_dev=16777220, st_nlink=1, st_uid=503, st_gid=20, st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
                                                                              ^
-                                                                             |
       
 ```
 ```python
@@ -101,7 +99,6 @@ getgrgid(os.stat(filename).st_gid).gr_name
 ```
 (st_mode=33188, st_ino=5254022, st_dev=16777220, st_nlink=1, st_uid=503, st_gid=20, st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
                                                                                            ^
-                                                                                           |
       
 ```
 Trivial to convert size in bytes to human readable.
@@ -111,7 +108,6 @@ Trivial to convert size in bytes to human readable.
 ```
 (... , st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
                                                   ^
-                                                  |
 ```
 
 - `mtime` , or modification time, is when the file was last modified. When you change the contents of a file, its mtime changes. 
