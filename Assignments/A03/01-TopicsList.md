@@ -105,7 +105,7 @@
 
 - **Multi level Feedback Queue Scheduling**: It allows the process to move in between queues. The idea is to separate processes according to the characteristics of their CPU bursts. If a process uses too much CPU time, it is moved to a lower-priority queue.[sairamkrishna and saikiran]
   
-### I/O & Disk Scheduling (Sai Nagesh and Havila) April 4-6
+### I/O & Disk Scheduling (Sai Nagesh and Havila) April 1-3
 
 https://intro2operatingsystems.wordpress.com/2016/05/11/mass-storage-and-disk-scheduling/
   
