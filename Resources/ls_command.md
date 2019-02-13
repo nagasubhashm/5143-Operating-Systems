@@ -34,11 +34,14 @@ info = os.lstat(somefileordir)
 
 #### Column 1: Permissions `st_mode`
 
-The first character in the permissions column can portray a few different attributes about the file (or directory or link or ...). I only want you to worry about: files, directories, and links.
+The first character in the permissions column can portray a few different attributes about the item. I only want you to determine if it is a: files, directory, or link.
 
 ```python
 isLink = os.path.islink(fileordirname)
 isDir = os.path.isdir(fileordirname)
+
+if not isLink and not isDir:
+    isFile = True
 ```
 (st_mode=33188, st_ino=5254022, st_dev=16777220, st_nlink=1, st_uid=503, st_gid=20, st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
       ^
