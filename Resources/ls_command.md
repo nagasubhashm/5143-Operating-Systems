@@ -43,6 +43,8 @@ isDir = os.path.isdir(fileordirname)
 if not isLink and not isDir:
     isFile = True
 ```
+
+```
 (st_mode=33188, st_ino=5254022, st_dev=16777220, st_nlink=1, st_uid=503, st_gid=20, st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
       ^
       |
