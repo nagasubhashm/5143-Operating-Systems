@@ -52,6 +52,21 @@ prints (for example)
 ```
 
 Turning this into `-rw-r--r--` is trivial.
+
+```python
+permission ={
+  '0':('---'),
+  '1':('--x'),
+  '2':('-w-'),
+  '3':('-wx'),
+  '4':('r--'),
+  '5':('r-x'),
+  '6':('rw-'),
+  '7':('rwx')
+}
+print(permission(6))
+```
+prints: `rw-`
   
 #### Column 2: Links `st_nlink`
 ```
