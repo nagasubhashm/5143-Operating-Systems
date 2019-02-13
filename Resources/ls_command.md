@@ -33,6 +33,12 @@ info = os.lstat(somefileordir)
 ```
 
 #### Column 1: Permissions `st_mode`
+```
+(st_mode=33188, st_ino=5254022, st_dev=16777220, st_nlink=1, st_uid=503, st_gid=20, st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
+      ^
+      |
+```
+
 
 ```
 octalPerms = oct(info.st_mode)[-3:]
@@ -48,6 +54,14 @@ prints (for example)
 Turning this into `-rw-r--r--` is trivial.
   
 #### Column 2: Links `st_nlink`
+```
+(st_mode=33188, st_ino=5254022, st_dev=16777220, st_nlink=1, st_uid=503, st_gid=20, st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
+                                                     ^
+                                                     |
+      
+```
+
+
 
 ```
 info.st_nlink
@@ -56,7 +70,12 @@ info.st_nlink
 Gives a `1` in this case.
 
 #### Column 3: Owner `st_uid`
-
+```
+(st_mode=33188, st_ino=5254022, st_dev=16777220, st_nlink=1, st_uid=503, st_gid=20, st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
+                                                                 ^
+                                                                 |
+      
+```
 ```python
 import os
 from pwd import getpwuid
@@ -65,6 +84,12 @@ getpwuid(os.stat(filename).st_uid).pw_name,
 ```
 
 #### Column 4: Group `st_gid`
+```
+(st_mode=33188, st_ino=5254022, st_dev=16777220, st_nlink=1, st_uid=503, st_gid=20, st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
+                                                                             ^
+                                                                             |
+      
+```
 ```python
 import os
 from grp import getgrgid
@@ -73,14 +98,26 @@ getgrgid(os.stat(filename).st_gid).gr_name
 ```
 
 #### Column 5: Size `st_size`
-
+```
+(st_mode=33188, st_ino=5254022, st_dev=16777220, st_nlink=1, st_uid=503, st_gid=20, st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
+                                                                                           ^
+                                                                                           |
+      
+```
 Trivial to convert size in bytes to human readable.
 
 #### Column 6: Date `mtime`
 
-`mtime` , or modification time, is when the file was last modified. When you change the contents of a file, its mtime changes. 
-`ctime` , or change time, is when the file's property changes. ... 
-`atime` , or access time, is updated when the file's contents are read by an application or a command such as grep or cat
+```
+(... , st_size=50695, st_atime=1534972368, st_mtime=1523569466, st_ctime=1534972368)
+                                                  ^
+                                                  |
+```
+
+- `mtime` , or modification time, is when the file was last modified. When you change the contents of a file, its mtime changes. 
+- `ctime` , or change time, is when the file's property changes. ... 
+- `atime` , or access time, is updated when the file's contents are read by an application or a command such as grep or cat
+
 
 ```
 # https://stackoverflow.com/questions/3682748/converting-unix-timestamp-string-to-readable-date
