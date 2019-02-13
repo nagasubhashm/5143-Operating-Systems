@@ -93,6 +93,7 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 | `cp `            | `file1 file2`    | copy file1 and call it file2 |
 | `mv`             | `file1 file2`    | move or rename file1 to file2 |
 | `rm`             | `file`           | remove a file |
+|                  | `-r`    | recurses into non-empty folder to delete all |
 |                  | `fil*e` or `*file` or `file*     | removes files that match a wildcard |
 | `rmdir`             | `directory`  | remove a directory |
 | `cat`             | `file` | display a file |
