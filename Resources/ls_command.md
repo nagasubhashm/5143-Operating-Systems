@@ -107,7 +107,7 @@ Gives a `1` in this case.
 import os
 from pwd import getpwuid
 
-getpwuid(os.stat(filename).st_uid).pw_name,
+getpwuid(os.stat(filename).st_uid).pw_name
 ```
 
 #### Column 4: Group `st_gid`
