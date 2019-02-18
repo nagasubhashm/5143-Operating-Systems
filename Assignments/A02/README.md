@@ -147,7 +147,7 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 - Place your group names on the README.md along with a description (see below).
 - Even though your shell will have its own private repo, each member must (by the final due date) have a copy on thier course repo:
   - In your `assignments/shell` folder from Part 1. 
-  - Create a file called `driver.py` in the `shell` folder.
+  - Create a file called `shell.py` in the `shell` folder.
   - Create a file called `README.md` in your `shell` folder.
   - Additional files are ok, for example if you want to place each "command" in a seperate file for organizational purposes, that would be not only acceptable, but encouraged.
 
