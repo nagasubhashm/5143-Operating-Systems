@@ -4,7 +4,7 @@
 
 |    #    | Item                                             |  Value  | Earned |
 | :-----: | ------------------------------------------------ | :-----: | :----: |
-| ***1*** | ***Commands***                                   | **60**  |        |
+| ***1*** | ***Commands***                                   | **200** |        |
 |         |                                                  |   [ ]   |        |
 |    1    | `ls -lah`                                        |   [ ]   |        |
 |    2    | `mkdir bananas`                                  |   [ ]   |        |
@@ -28,16 +28,16 @@
 |   20    | Command of your choice                           |   [ ]   |        |
 |         |                                                  |         |        |
 |  <hr>   | <hr>                                             |  <hr>   |  <hr>  |
-| ***4*** | ***Piping***                                     | **30**  |        |
+| ***4*** | ***Piping***                                     | **50**  |        |
 |         |                                                  |         |        |
-|         | `grep bacon bacon.txt | wc -l`                   |   [ ]   |        |
+|         | `grep bacon bacon.txt \| wc -l`                   |   [ ]   |        |
 |         |                                                  |         |        |
 |         |                                                  |         |        |
 |  <hr>   | <hr>                                             |  <hr>   |  <hr>  |
-| ***5*** | ***Redirection***                                | **10**  |        |
+| ***5*** | ***Redirection***                                | **25**  |        |
 |         |                                                  |         |        |
 |         | `cat file1 file2 > file0 `                       |   [ ]   |        |
 |         |                                                  |         |        |
 |  <hr>   | <hr>                                             |  <hr>   |  <hr>  |
-|         | Total:                                           | **100** |        |
+|         | Total:                                           | **275** |        |
 
