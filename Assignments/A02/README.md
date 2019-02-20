@@ -200,7 +200,7 @@ Only give instructions for the general running of your shell and anything you fe
 ***Commands***:
 
 |   command       |   description   | Author   |    Notes     |
-|:---------------:|:------------------:|:--------:|       |
+|:---------------:|:------------------:|:--------:|:----:|
 | ls              | directory listing  | Anusha   |       |
 | pwd             | working directory  | Raj      |       |
 | etc.            | etc                | etc      |       |
