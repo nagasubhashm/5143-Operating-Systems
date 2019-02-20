@@ -30,12 +30,14 @@
 |  <hr>   | <hr>                                             |  <hr>   |  <hr>  |
 | ***4*** | ***Piping***                                     | **50**  |        |
 |         |                                                  |         |        |
+|         | Similar to:                                       |         |        |
 |         | `grep bacon bacon.txt \| wc -l`                   |   [ ]   |        |
 |         |                                                  |         |        |
 |         |                                                  |         |        |
 |  <hr>   | <hr>                                             |  <hr>   |  <hr>  |
 | ***5*** | ***Redirection***                                | **25**  |        |
 |         |                                                  |         |        |
+|         | Similar to:                                      |         |        |
 |         | `cat file1 file2 > file0 `                       |   [ ]   |        |
 |         |                                                  |         |        |
 |  <hr>   | <hr>                                             |  <hr>   |  <hr>  |
