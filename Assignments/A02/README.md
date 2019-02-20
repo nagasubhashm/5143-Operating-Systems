@@ -164,6 +164,7 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 - Project Title
 - Project description 
     - With a list of all commands implemented
+    - Indicate who in the group wrote the specific command.
     - Make a note of any commands that do not work or are not implemented.
     - The documentation of non-working portions of the shell will be viewed favorably by me. 
     - Passing of portions of the shell as working when they don't will affect your grade considerably.
