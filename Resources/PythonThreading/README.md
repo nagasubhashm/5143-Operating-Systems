@@ -1124,6 +1124,30 @@ First try : True
 Second try: 1
 ```
 
+### Example Usage:
+
+```python
+class X:
+    def __init__(self):
+        self.a = 1
+        self.b = 2
+        self.lock = threading.RLock()
+
+    def changeA(self):
+        with self.lock:
+            self.a = self.a + 1
+
+    def changeB(self):
+        with self.lock:
+            self.b = self.b + self.a
+
+    def changeAandB(self):
+        # you can use chanceA and changeB threadsave!
+        with self.lock:
+            self.changeA() # a usual lock would block in here
+            self.changeB()
+```
+
 --------------------------------------------------------
 
 # Multithreading : Using locks in the with statement (Context Manager)

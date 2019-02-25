@@ -1,3 +1,17 @@
+"""
+Docs:
+join([timeout]) Wait until the thread terminates. This blocks the calling 
+thread until the thread whose join() method is called terminates – either 
+normally or through an unhandled exception – or until the optional timeout occurs.
+
+Example:
+If, for example, you want to concurrently download a bunch of pages to 
+concatenate them into a single large page, you may start concurrent 
+downloads using threads, but need to wait until the last page/thread 
+is finished before you start assembling a single page out of many. That's 
+when you use join().
+"""
+
 import threading
 import time
 import logging

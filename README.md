@@ -1,6 +1,7 @@
 # 5143-Operating-Systems - Syllabus
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/51ccTouNn-L._SX361_BO1,204,203,200_.jpg" width="100">
+
 - Title: Operating Systems: Internals and Design Principles (7th Edition)
 - Author: William Stallings 
 - Publisher: Pearson
