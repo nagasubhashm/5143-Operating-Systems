@@ -75,56 +75,57 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 
 ### Commands To Implement
 
-| Command	     | Flag / Param      | Meaning                           |
-|----------------|------------|-----------------------------------|
-| `ls	`        |            | list files and directories        |
-|                |    `-a`	  |   list all show hidden files      |
-|                |    `-l`	  |    long listing                   |
-|                |    `-h`	  |    human readable sizes           |
-| `mkdir`	     |             |make a directory                  |
-| `cd`           |  `directory` |change to named directory         |
-| `cd`	         |             |change to home-directory          |
-|                |   `~	`      |change to home-directory           |
-| 	             |   `..`      |change to parent directory          | 
-| `pwd`	         |             |display the path of the current directory |
+| Command | Flag / Param | Meaning                                   |
+| ------- | ------------ | ----------------------------------------- |
+| `ls	`   |              | list files and directories                |
+|         | `-a`         | list all show hidden files                |
+|         | `-l`         | long listing                              |
+|         | `-h`         | human readable sizes                      |
+| `mkdir` |              | make a directory                          |
+| `cd`    | `directory`  | change to named directory                 |
+| `cd`    |              | change to home-directory                  |
+|         | `~	`         | change to home-directory                  |
+|         | `..`         | change to parent directory                |
+| `pwd`   |              | display the path of the current directory |
 
-| Command | Params/Flags      |Meaning                                  |
-|---------|-----------|-------------------------------|
-| `cp `            | `file1 file2`    | copy file1 and call it file2 |
-| `mv`             | `file1 file2`    | move or rename file1 to file2 |
-| `rm`             | `file`           | remove a file |
-|                  | `-r`    | recurses into non-empty folder to delete all |
-|                  | `fil*e` or `*file` or `file*     | removes files that match a wildcard |
-| `rmdir`             | `directory`  | remove a directory |
-| `cat`             | `file` | display a file |
-|                   | `file1`,`file2`,`fileN` | display each of the files as if they were concatenated |
-| `less`             | `file` | display a file a page at a time |
-| `head`             | `file` | display the first few lines of a file |
-|                    | `-n` | how many lines to display |
-| `tail`             | `file` | display the last few lines of a file |
-|                    | `-n`| how many lines to display|
-| `grep`             | `'keyword' file` | search a file(s) files for keywords and print lines where pattern is found |
-|                   | `-l` | only return file names where the word or pattern is found |
-| `wc`             | `file` | count number of lines/words/characters in file |
-|                  | `-l` | count number of lines in file |
-|                  | `-m` | count number of characters in file |
-|                  | `-w` | count number of words in file |
+| Command | Params/Flags                 | Meaning                                                                    |
+| ------- | ---------------------------- | -------------------------------------------------------------------------- |
+| `cp `   | `file1 file2`                | copy file1 and call it file2                                               |
+| `mv`    | `file1 file2`                | move or rename file1 to file2                                              |
+| `rm`    | `file`                       | remove a file                                                              |
+|         | `-r`                         | recurses into non-empty folder to delete all                               |
+|         | `fil*e` or `*file` or `file* | removes files that match a wildcard                                        |
+| `rmdir` | `directory`                  | remove a directory                                                         |
+| `cat`   | `file`                       | display a file                                                             |
+|         | `file1`,`file2`,`fileN`      | display each of the files as if they were concatenated                     |
+| `less`  | `file`                       | display a file a page at a time                                            |
+| `head`  | `file`                       | display the first few lines of a file                                      |
+|         | `-n`                         | how many lines to display                                                  |
+| `tail`  | `file`                       | display the last few lines of a file                                       |
+|         | `-n`                         | how many lines to display                                                  |
+| `grep`  | `'keyword' file`             | search a file(s) files for keywords and print lines where pattern is found |
+|         | `-l`                         | only return file names where the word or pattern is found                  |
+| `wc`    | `file`                       | count number of lines/words/characters in file                             |
+|         | `-l`                         | count number of lines in file                                              |
+|         | `-m`                         | count number of characters in file                                         |
+|         | `-w`                         | count number of words in file                                              |
 
-| Command | Meaning      |
-|--------------------------|---------|
-| `command > file`           | redirect standard output to a file |
-| `command >> file`          | append standard output to a file |
-| ~~`command < file`~~           | ~~redirect standard input from a file~~|
-| `command1` | `command2`      | pipe the output of command1 to the input of command2 |
-| `cat file1 file2 > file0`  | concatenate file1 and file2 to file0 |
-| `sort`                     | sort data |
-| `who`                      | list users currently logged in |
+| Command                   | Meaning                                              |
+| ------------------------- | ---------------------------------------------------- |
+| `command > file`          | redirect standard output to a file                   |
+| `command >> file`         | append standard output to a file                     |
+| ~~`command < file`~~      | ~~redirect standard input from a file~~              |
+| ~~`command1`~~            | ~~`command2`~~                                       |
+| `command1 | 2command1`    | pipe the output of command1 to the input of command2 |
+| `cat file1 file2 > file0` | concatenate file1 and file2 to file0                 |
+| `sort`                    | sort data                                            |
+| `who`                     | list users currently logged in                       |
 
-| Command | Meaning |
-|--------------------------|---------|
-| `history`           | show a history of all your commands |
-| `!x`                | this loads command `x` from your history so you can run it again |
-| `chmod xxx`         | change modify permission | 
+| Command     | Meaning                                                          |
+| ----------- | ---------------------------------------------------------------- |
+| `history`   | show a history of all your commands                              |
+| `!x`        | this loads command `x` from your history so you can run it again |
+| `chmod xxx` | change modify permission                                         |
 
 >Note: Every command should print out help for the command if the user enters `command --help`. Look at [docstrings](https://realpython.com/documenting-python-code/) as one possible solution.
 ## Deliverables
@@ -134,11 +135,11 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 
 >Group Members
 >
-| Name     | Email   | Github Username |
-|----------|---------|-----------------|
-| Name 1   | Email.One | username_one  |
-| Name 2   | Email.Two | username_two  |
-| Name 3   | Email.Three | username_three |
+| Name   | Email       | Github Username |
+| ------ | ----------- | --------------- |
+| Name 1 | Email.One   | username_one    |
+| Name 2 | Email.Two   | username_two    |
+| Name 3 | Email.Three | username_three  |
 
 ***Part 2***
 - Create a private repository on github.
@@ -146,7 +147,7 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 - Place your group names on the README.md along with a description (see below).
 - Even though your shell will have its own private repo, each member must (by the final due date) have a copy on thier course repo:
   - In your `assignments/shell` folder from Part 1. 
-  - Create a file called `driver.py` in the `shell` folder.
+  - Create a file called `shell.py` in the `shell` folder.
   - Create a file called `README.md` in your `shell` folder.
   - Additional files are ok, for example if you want to place each "command" in a seperate file for organizational purposes, that would be not only acceptable, but encouraged.
 
@@ -163,9 +164,10 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 - Project Title
 - Project description 
     - With a list of all commands implemented
+    - Indicate who in the group wrote the specific command.
     - Make a note of any commands that do not work or are not implemented.
     - The documentation of non-working portions of the shell will be viewed favorably by me. 
-    - Passing of portions of the shell as working when they don't will affect your grade considerably.
+    - Passing off  portions of the shell as working when they don't will affect your grade considerably.
 - A references section that cites any sources used to assist your group in creating the shell. 
     - Using some external code is ok as long as you follow the following guidelines:
         - Cite the source of the code in the `README.md` and in the comments of the `shell.py` file. 
@@ -174,4 +176,41 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 - Group Members
 - Any instructions necessary to ensure I run your code correctly.
 
+### Example Readme
+
+---
+
+#### 20 Feb 2019
+#### 5143 Shell Project 
+
+#### Group Members
+
+- Person 1
+- Person 2
+
+#### Overview:
+This is a project written in python that implements a basic shell ......
+
+
+#### Instructions
+Only give instructions for the general running of your shell and anything you feel is pertinent
+
+- To run `ls` ...
+
+***Commands***:
+
+|   command       |   description   | Author   |    Notes     |
+|:---------------:|:------------------:|:--------:|:----:|
+| ls              | directory listing  | Anusha   |       |
+| pwd             | working directory  | Raj      |       |
+| etc.            | etc                | etc      |       |
+
+
+***Non Working Components***
+
+
+***References***
+
+- site1
+- site2
 

@@ -30,7 +30,7 @@ def worker(lock):
     while num_acquires < 3:
         time.sleep(0.5)
         logging.debug('Trying to acquire')
-        acquired = lock.acquire(0)
+        acquired = lock.acquire()
         try:
             num_tries += 1
             if acquired:
@@ -50,5 +50,7 @@ if __name__ == '__main__':
     locker.setDaemon(True)
     locker.start()
 
-    worker = threading.Thread(target=worker, args=(lock,), name='Worker')
-    worker.start()
+    worker1 = threading.Thread(target=worker, args=(lock,), name='Worker1')
+    worker2 = threading.Thread(target=worker, args=(lock,), name='Worker2')
+    worker1.start()
+    worker2.start()

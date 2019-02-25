@@ -1,3 +1,9 @@
+"""
+All of the objects provided by a module that has acquire() and release() methods 
+can be used as context managers for a with statement. The acquire() method will 
+be called when the block is entered, and release() will be called when the block 
+is exited (see https://docs.python.org/3/library/threading.html#with-locks)
+"""
 import threading
 import logging
 
