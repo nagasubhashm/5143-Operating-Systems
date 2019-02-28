@@ -52,3 +52,5 @@ if __name__ == '__main__':
     time.sleep(3)
     e.set()
     logging.debug('Event is set')
+    time.sleep(2)
+    e.set()

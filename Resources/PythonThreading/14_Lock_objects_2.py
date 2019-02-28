@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.DEBUG,
                     format='(%(threadName)-9s) %(message)s',)
                     
 def locker(lock):
-    logging.debug('Starting')
+    logging.debug('Locker Starting')
     while True:
         lock.acquire()
         try:
@@ -24,7 +24,7 @@ def locker(lock):
     return
                     
 def worker(lock):
-    logging.debug('Starting')
+    logging.debug('Worker Starting')
     num_tries = 0
     num_acquires = 0
     while num_acquires < 3:

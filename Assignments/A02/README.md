@@ -164,9 +164,10 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 - Project Title
 - Project description 
     - With a list of all commands implemented
+    - Indicate who in the group wrote the specific command.
     - Make a note of any commands that do not work or are not implemented.
     - The documentation of non-working portions of the shell will be viewed favorably by me. 
-    - Passing of portions of the shell as working when they don't will affect your grade considerably.
+    - Passing off  portions of the shell as working when they don't will affect your grade considerably.
 - A references section that cites any sources used to assist your group in creating the shell. 
     - Using some external code is ok as long as you follow the following guidelines:
         - Cite the source of the code in the `README.md` and in the comments of the `shell.py` file. 
@@ -175,4 +176,41 @@ The above implementation of the `ls` command with the `-l` flag, is NOT an imple
 - Group Members
 - Any instructions necessary to ensure I run your code correctly.
 
+### Example Readme
+
+---
+
+#### 20 Feb 2019
+#### 5143 Shell Project 
+
+#### Group Members
+
+- Person 1
+- Person 2
+
+#### Overview:
+This is a project written in python that implements a basic shell ......
+
+
+#### Instructions
+Only give instructions for the general running of your shell and anything you feel is pertinent
+
+- To run `ls` ...
+
+***Commands***:
+
+|   command       |   description   | Author   |    Notes     |
+|:---------------:|:------------------:|:--------:|:----:|
+| ls              | directory listing  | Anusha   |       |
+| pwd             | working directory  | Raj      |       |
+| etc.            | etc                | etc      |       |
+
+
+***Non Working Components***
+
+
+***References***
+
+- site1
+- site2
 

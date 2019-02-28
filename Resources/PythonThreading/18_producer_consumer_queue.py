@@ -24,7 +24,9 @@ class ProducerThread(threading.Thread):
                 q.put(item)
                 logging.debug('Putting ' + str(item)  
                               + ' : ' + str(q.qsize()) + ' items in queue')
-                time.sleep(random.random())
+                time.sleep(random.random() + random.random())  
+            else:
+                print("Producers queue is full.")
             
         return
 
@@ -43,6 +45,8 @@ class ConsumerThread(threading.Thread):
                 logging.debug('Getting ' + str(item) 
                               + ' : ' + str(q.qsize()) + ' items in queue')
                 time.sleep(random.random())
+            else:
+                print("Consumers queue empty.")
         return
 
 if __name__ == '__main__':

@@ -1,0 +1,334 @@
+<head>
+    <!DOCTYPE html>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <html class="no-js">
+    <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>MSU - Department of Computer Science</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="shortcut icon" href="http://cs.mwsu.edu/wp-content/themes/bones/favicon.ico">
+
+        <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/icomoon-social.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' rel='stylesheet' type='text/css'>
+
+        <!-- Custom CSS-->
+        <link rel="stylesheet" href="css/logo-nav.css">
+        <link rel="stylesheet" href="css/leaflet.css" />
+        <link href="css/header-carousel.css" rel="stylesheet">
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/leaflet.ie.css" />
+        <![endif]-->
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Javascripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')
+        </script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+
+    <body>
+
+        <!-- Navigation & Logo-->
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="http://cs.mwsu.edu/">
+                        <img src="img/msu/logo-trans.png" alt="MSU">
+                    </a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="text-align:center">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="./ntasc/index.html">NTASC 18</a>
+                        </li>
+                        <li>
+                            <a href="faculty.php">Faculty</a>
+                        </li>
+                        <li>
+                            <a href="academics.php">Academics</a>
+                        </li>
+                        <li>
+                            <a href="scholarships.php">Scholarships</a>
+                        </li>
+                        <li>
+                            <a href="documents/Fall_Newsletter_2017.pdf">Newsletter</a>
+                        </li>
+                        <li class="dropdown-toggle">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Important Links
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu" style="text-align:left">
+                                <li>
+                                    <a href="http://cs.mwsu.edu/acm/">
+                                        <i class="fa fa-arrow-circle-right"></i> ACM - Local Chapter Site</a>
+                                </li>
+                                <li>
+                                    <a href="http://dl.acm.org/dl.cfm">
+                                        <i class="fa fa-arrow-circle-right"></i> ACM Digital Library</a>
+                                </li>
+                                <li>
+                                    <a href="http://cs2.mwsu.edu/msu2u/">
+                                        <i class="fa fa-arrow-circle-right"></i> MSU2U Website</a>
+                                </li>
+                                <li>
+                                    <a href="http://cs.mwsu.edu/1044_labs.php">
+                                        <i class="fa fa-arrow-circle-right"></i> 1044 Lab</a>
+                                </li>
+                                <li>
+                                    <a href="cmps-proficiency-exam.php">
+                                        <i class="fa fa-arrow-circle-right"></i> CMPS Proficieny Exam</a>
+                                </li>
+                                <li>
+                                    <a href="./documents/GraduatePaperFormat.pdf">
+                                        <i class="fa fa-arrow-circle-right"></i> Graduate Paper Format</a>
+                                </li>
+                                <li>
+                                    <a href="graduate-exam.php">
+                                        <i class="fa fa-arrow-circle-right"></i> Graduate Exam Topics</a>
+                                </li>
+                                <li>
+                                    <a href="./documents/plagiarism.pdf">
+                                        <i class="fa fa-arrow-circle-right"></i> Plagiarism Policy</a>
+                                </li>
+                                <li>
+                                    <a href="./documents/CMPS_Cheating_Policy.pdf">
+                                        <i class="fa fa-arrow-circle-right"></i> Cheating Policy</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.php">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="NTASCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#NTASCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#NTASCarousel" data-slide-to="1"></li>
+                <li data-target="#NTASCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/msu/MenOfCMPS.jpg" alt="MenOfCMPS">
+                </div>
+                <div class="item">
+                    <img src="img/msu/WomenOfCMPS.jpg" alt="WomenOfCMPS">
+                </div>
+                <!--<div class="item">
+                  <img src="img/students2_smaller.png" alt="students2_smaller.png">
+                </div>-->
+                <div class="item">
+                    <img src="img/students3.png" alt="">
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#NTASCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#NTASCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+        </div>
+        <!-- Carousel -->
+        <!-- Welcome Message -->
+        <div class="section">
+            <div class="container">
+                <div class="col-sm-12">
+                    <h3>
+                        <center>
+                            <a href="./documents/New_Minor_Summary-ADA.pdf">Computer Science Adding 3 New Minors</a>
+                        </center>
+                    </h3>
+                    <br>
+                    <div style="text-align:center"> Minors emphasizing Cybersecurity, High Performance Computing, and Computational Science were approved
+                        by MSU to be added to the latest catalog. For more information, click the icon:
+                        <a href="./documents/Minor_Summary.pdf"><img src="./images/pdf_icon_32.png"></a>.
+                    </div>
+                    <br>
+		   <hr>
+			
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="in-press" style="text-align:center">
+                            Welcome to the website of the Computer Science Department of Midwestern State University.
+                            <br> The Computer Science Department is located within the Bolin College of Science and Mathematics
+                            building. The Computer Science Program at MSU prepares students for exciting career opportunities
+                            in computing. Computer science majors complete a curriculum which is based on fundamental concepts
+                            in computing. Such a curriculum enables our graduates to obtain financially rewarding positions
+                            in today's job market and easily adapt to the changing requirements of tomorrow's computing industry.
+                            Midwestern State University offers B.S., B.A., and M.S. degrees in computer science.
+                        </div>
+                    </div>
+                    <h2>News</h2>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="./images/NvidiaLogo.png">
+                        </div>
+                        <div class="col-sm-8" style="vertical-align:middle">
+                            <h3>
+                                <center>Midwestern State University Named GPU Education Center by NVIDIA</center>
+                            </h3>
+                            <br>Midwestern State University has been named a GPU Education Center by NVIDIA, a computer technology
+                            company that has pioneered GPU-accelerated computing. Dr. Eduardo Colmenares serves as the center
+                            director.
+                            <br>
+                            <br> GPU Education Centers are recognized institutions that have integrated GPU-accelerated computing
+                            into their mainstream science and engineering curriculum. GPU-accelerated computing leverages
+                            the parallel processing capabilities of GPU accelerators and enabling software to deliver dramatic
+                            increases in performance for scientific, artificial intelligence, deep learning, graphics, engineering,
+                            and other demanding applications.
+                            <br>
+                            <br> MSU was recognized for its commitment to advancing the state of parallel programming education,
+                            and regularly offers courses with a strong and up-to-date high performance computing (HPC) foundation.
+                            MSU offers bachelor’s and master’s degrees in computer science.
+                            <br>
+                            <br> Thanks to NVIDIA’s support, not only will CMPS students at MSU have access to the latest technology,
+                            information, class and lab materials, but also we, as an institution, will be able to offer enhanced
+                            accelerated computing and HPC experience to all individuals interested in growing, developing,
+                            enhancing, and applying these relevant and valuable skills.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End WElcome Message -->
+
+        <!-- Testimonials -->
+        <div class="section">
+            <div class="container">
+                <h2>Testimonials</h2>
+                <div class="row">
+                    <!-- Testimonial -->
+                    <div class="testimonial col-md-4 col-sm-6">
+                        <!-- Author Photo -->
+                        <div class="author-photo">
+                            <img src="img/msu/simba.png" alt="Author 1">
+                        </div>
+                        <div class="testimonial-bubble">
+                            <blockquote>
+                                <!-- Quote -->
+                                <p class="quote">
+                                    "The things that I learnt during my time at Midwestern State University in the Computer Science department have proved to
+                                    be indispensable. The skills and knowledge that the professors shared with me both inside
+                                    and out of class have helped me start a budding career as a software developer in a Start
+                                    Up company."
+                                </p>
+                                <!-- Author Info -->
+                                <cite class="author-info">
+                                    - Simbarashe Tanaka Musarurwa,
+                                    <br> BS Computer Science(2014)
+                                </cite>
+                            </blockquote>
+                            <div class="sprite arrow-speech-bubble"></div>
+                        </div>
+                    </div>
+                    <!-- End Testimonial -->
+                    <div class="testimonial col-md-4 col-sm-6">
+                        <div class="author-photo">
+                            <img src="img/msu/kandyce.png" alt="Author 2">
+                        </div>
+                        <div class="testimonial-bubble">
+                            <blockquote>
+                                <p class="quote">
+                                    "Earning my degree in Computer Science from Midwestern State University has opened many doors for me. Software engineering
+                                    and computer science careers depend upon the constant evolution of new approaches and
+                                    techniques for problem solving while enabling the exploration of diverse fields in which
+                                    software and technology can be applied. As a computer scientist at 3M, I have the opportunity
+                                    to study interdependencies of material science, computer science, and the user experience
+                                    as I innovate through analogy."
+                                </p>
+                                <cite class="author-info">
+                                    - Kandyce Bohannon,
+                                    <br> MS Computer Science (2010),
+                                    <br> BS Computer Science (2008)
+                                </cite>
+                            </blockquote>
+                            <div class="sprite arrow-speech-bubble"></div>
+                        </div>
+                    </div>
+                    <div class="testimonial col-md-4 col-sm-6">
+                        <div class="author-photo">
+                            <img src="./images/Paulius.100.png" alt="Author 3">
+                        </div>
+                        <div class="testimonial-bubble">
+                            <blockquote>
+                                <p class="quote">
+                                    "A degree in Computer Science from Midwestern State University equipped me well for both graduate studies and subsequent
+                                    work in both academia and industry - I have been working in the Silicon Valley surrounded
+                                    by top computer scientists, many of whom graduated from top-name universities, and have
+                                    not felt outgunned. Looking back, I realize I benefited both from the strong fundamentals
+                                    provided by the coursework and from continued guidance and support by the faculty, two
+                                    of the strengths of the Computer Science department."
+                                </p>
+                                <cite class="author-info">
+                                    - Paulius Micikevicius,
+                                    <br> BS Computer Science (1998)
+                                </cite>
+                            </blockquote>
+                            <div class="sprite arrow-speech-bubble"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>Resources</h2>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <a href="https://www.affordablecollegesonline.org/degrees/computer-science-programs/resources/">
+                            <img src="https://www.affordablecollegesonline.org/wp-content/files_mf/aclogo.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-8">
+                        <a href="https://www.affordablecollegesonline.org/degrees/computer-science-programs/resources/">RESOURCES & TOOLS FOR COMPUTER SCIENCE STUDENTS - Tools, Tech & News for a Career in Computer Science
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Testimonials -->
+        <div class="row">
+            <div class="footer-copyright">&copy; Midwestern State University</div>
+        </div>
+    </body>
+
+    </html>
