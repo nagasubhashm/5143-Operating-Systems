@@ -1,11 +1,9 @@
 ## Shell Assignment Command Checklist
 
 ## Name: _______________________________________
-
 |    #    | Item                                             |  Value  | Earned |
 | :-----: | ------------------------------------------------ | :-----: | :----: |
 | ***1*** | ***Commands***                                   | **200** |        |
-|         |                                                  |   [ ]   |        |
 |    1    | `ls -lah`                                        |   [ ]   |        |
 |    2    | `mkdir bananas`                                  |   [ ]   |        |
 |    3    | `cd bananas`                                     |   [ ]   |        |
@@ -26,20 +24,11 @@
 |   18    | `chmod 777 somefile.txt`                         |   [ ]   |        |
 |   19    | `sort bacon.txt`                                 |   [ ]   |        |
 |   20    | Command of your choice                           |   [ ]   |        |
-|         |                                                  |         |        |
-|  <hr>   | <hr>                                             |  <hr>   |  <hr>  |
 | ***4*** | ***Piping***                                     | **50**  |        |
-|         |                                                  |         |        |
 |         | Similar to:                                       |         |        |
 |         | `grep bacon bacon.txt \| wc -l`                   |   [ ]   |        |
-|         |                                                  |         |        |
-|         |                                                  |         |        |
-|  <hr>   | <hr>                                             |  <hr>   |  <hr>  |
 | ***5*** | ***Redirection***                                | **25**  |        |
-|         |                                                  |         |        |
 |         | Similar to:                                      |         |        |
 |         | `cat file1 file2 > file0 `                       |   [ ]   |        |
-|         |                                                  |         |        |
-|  <hr>   | <hr>                                             |  <hr>   |  <hr>  |
 |         | Total:                                           | **275** |        |
 
