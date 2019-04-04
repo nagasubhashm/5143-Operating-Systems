@@ -1,60 +1,110 @@
 from math import pow
+from math import log2
 import sys
 import os
+from random import seed 
 from random import shuffle
 from random import randint
 
 # Help to format a binary string 
 # important: "width" = bits in address space
-binformat = '{fill}{align}{width}{type}'.format(fill='0', align='>', width=12, type='b')
 
-def read_file(fin,delimiter="\n"):
-    if os.path.isfile(fin):
-        with open(fin) as f:
-            data = f.read()
-        data = data.strip()
-        return data.split(delimiter)
-    print("Error: file does not exist in function 'read_file'...")
-    return None
 
-def str_binary(n,bits=12):
-    frmt = '{fill}{align}{width}{type}'.format(fill='0', align='>', width=bits, type='b')
-    return format(n,frmt)
+def str_binary(n,padd=12):
+    binfrmt = '{fill}{align}{width}{type}'.format(fill='0', align='>', width=padd, type='b')
+    n = format(n,binfrmt)
+    return n
 
-# Address allocation within address space
-# stack
-# empty
-# heap
-# data
-# code
+def rand_address(vm_size=4096):
 
-processes = 3
+    bits = int(log2(vm_size))
+    hbase = int(vm_size*.8)
+    lbase = int(vm_size*.3)
+    highlow_chances = [1,1,1,0,0,0,0,0,0,0]
 
-virt_mem_size = 4096 # bytes
-#virt_mem_size = 256 # bytes
-phys_mem_size = 128
-page_size = 8 # bytes
+    shuffle(highlow_chances)
+    highlow = highlow_chances[0]
 
-process_list = [x for x in range(processes)]
-memory_access = []
+    address = 0
 
-for x in range(500):
-    memory_access.append(randint((virt_mem_size-1024),virt_mem_size))
+    if highlow > 0:
+        address = randint(hbase,vm_size)
+    else:
+        address = randint(0,lbase)
 
-f = open("prog_1.dat","w")
+    return str_binary(address,bits)
 
-for i in range(100):
-    shuffle(memory_access)
-    shuffle(process_list)
-    f.write("{},{} ".format(process_list[0],hex(memory_access[0])[2:]))
-
-f.close()
-
-data = read_file("prog_1.dat"," ")
-
-for d in data:
-    p,h = d.split(',')
-    n = int(h, 16)
-    b = str_binary(n,5)
+def rand_instruction(vm_size=4096):
     
-    print("{} {} {} {}".format(p,h,n,b))
+    size = int(log2(vm_size))
+    highlow_chances = [1,1,1,0,0,0,0,0,0,0]
+    bits = ['0','1']
+
+    shuffle(highlow_chances)
+    highlow = highlow_chances[0]
+
+    instruction = 0
+
+    for bit in range(size):
+        shuffle(bits)
+        instruction += bits[0]
+    return str_binary(instruction,size)
+
+def write_sim_file(process_instructions,sim_num,np,vm):
+    name = "sim_{}_{}_{}.dat".format(sim_num,np,vm)
+
+    f = open(os.path.join('snapshots',name),"w")
+
+    for p in process_instructions:
+        f.write("{},{} ".format(p[0],hex(int(p[1], 2))))
+
+    f.close()
+
+def gen_addresses(minimum_instructions,max_instructions,np,vm):
+    process_addresses = []
+
+    for p in range(np):
+        num_inst = randint(minimum_instructions,max_instructions)
+        sys.stdout.write("\t\t"+str(num_inst)+"\n")
+        for x in range(num_inst):
+            process_addresses.append((p,rand_address(vm)))
+
+    shuffle(process_addresses)
+    return process_addresses
+
+if __name__=='__main__':
+
+    # Address allocation within address space
+    #      +-------+
+    #      | stack |
+    #      |       |
+    #      | empty |
+    #      |       |
+    #      | heap  |
+    #      | data  |
+    #      | code  |
+    #      +-------+
+    seed(345678)
+
+    virt_mem_list = [256,512,1024,2048,4096,8192]
+    num_processes_list = [5,10,20,30,40,50,60,70,80,90,100,500]
+
+    minimum_instructions = 512
+    max_instructions = int(pow(2,19))
+
+    sim_num = 0
+
+    process_instructions = gen_addresses(minimum_instructions,max_instructions,3,128)
+    write_sim_file(process_instructions,sim_num,3,128)
+
+    sim_num += 1
+
+    for vm in virt_mem_list:
+        sys.stdout.write(str(vm)+"\n")
+        for np in num_processes_list:
+            sys.stdout.write("\t"+str(np)+"\n")
+
+            process_instructions = gen_addresses(minimum_instructions,max_instructions,np,vm)
+            write_sim_file(process_instructions,sim_num,np,vm)
+            sim_num += 1
+            
