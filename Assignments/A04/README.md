@@ -65,6 +65,19 @@ Each `process_id` will be accompanied with a `hex address`. An example input fil
 - Input files can be obtained from: `http://cs.mwsu.edu/~griffin/vm_snapshots/` 
 - Python has a library called `Requests`: http://docs.python-requests.org/en/master/user/quickstart/
 
+```python
+import requests
+
+r = requests.get('http://cs.mwsu.edu/~griffin/vm_snapshots/sim_0_3_128.dat')
+
+data = r.text.split(' ')
+
+for item in data:
+    p,add = item.split(',')
+    
+    print("p:{} , add:{}".format(p,add))
+```
+
 ### Running your Program
 
 Your program should be configurable from the command line giving sizes for each component in bytes. For example:
