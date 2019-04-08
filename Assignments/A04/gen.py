@@ -88,9 +88,10 @@ if __name__=='__main__':
 
     virt_mem_list = [256,512,1024,2048,4096,8192]
     num_processes_list = [5,10,20,30,40,50,60,70,80,90,100,500]
+    num_processes_list = [5,10,20,30,40,50,100]
 
     minimum_instructions = 512
-    max_instructions = int(pow(2,19))
+    max_instructions = int(pow(2,17))
 
     sim_num = 0
 
