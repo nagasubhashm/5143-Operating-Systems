@@ -123,7 +123,6 @@ def kvargs(sysargs):
 - You will provide a plot diagram for each "run" that you perform (to be discussed in class).
 - All code used should be in your assignment folder.
 - All diagrams created should be in your assignment folder.
-<<<<<<< HEAD
 
 #### Possible Runs
 
@@ -134,12 +133,10 @@ def kvargs(sysargs):
   - `50` = `Number of processes`
   - `1024` = `Virtual Memory size`
 - Virtual Memory (`VM`) is typically 1.5 - 4 times the size of physical memory so we should test our simulation on multiple physical memory (`PM`) sizes.
-  - `VM` = 1024 = 2^10
-  - Possible `PM`:
-  - floor(10 * .75) = 2^7 = 128
-  - floor(10 * .5) = 2^5 = 32
-  - floor(10 * .25) = 
+  - `VM` = 1024 
+  - Possible `PM` sizes:
+    - 2^9 = 512
+    - 2^8 = 256
+    - 2^7 = 128
 
-=======
-- 
->>>>>>> 79e1c91993153b127692198e375b825c8e4782ab
+More coming ... Discuss in class...
