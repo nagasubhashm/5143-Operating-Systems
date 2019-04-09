@@ -65,6 +65,19 @@ Each `process_id` will be accompanied with a `hex address`. An example input fil
 - Input files can be obtained from: `http://cs.mwsu.edu/~griffin/vm_snapshots/` 
 - Python has a library called `Requests`: http://docs.python-requests.org/en/master/user/quickstart/
 
+```python
+import requests
+
+r = requests.get('http://cs.mwsu.edu/~griffin/vm_snapshots/sim_0_3_128.dat')
+
+data = r.text.split(' ')
+
+for item in data:
+    p,add = item.split(',')
+    
+    print("p:{} , add:{}".format(p,add))
+```
+
 ### Running your Program
 
 Your program should be configurable from the command line giving sizes for each component in bytes. For example:
@@ -110,6 +123,7 @@ def kvargs(sysargs):
 - You will provide a plot diagram for each "run" that you perform (to be discussed in class).
 - All code used should be in your assignment folder.
 - All diagrams created should be in your assignment folder.
+<<<<<<< HEAD
 
 #### Possible Runs
 
@@ -126,3 +140,6 @@ def kvargs(sysargs):
   - floor(10 * .5) = 2^5 = 32
   - floor(10 * .25) = 
 
+=======
+- 
+>>>>>>> 79e1c91993153b127692198e375b825c8e4782ab
