@@ -6,8 +6,9 @@ def str_binary(n,padd=12):
     n = format(n,binfrmt)
     return n
 
-def usage():
+def usage(e):
     print("do it right...")
+    print(e)
     sys.exit()
 
 def myargs(sysargs):
@@ -39,6 +40,6 @@ if __name__=='__main__':
     for d in data:
         p,h = d.split(',')
         n = int(h, 16)
-        b = str_binary(n,5)
+        b = str_binary(n,7)
 
-        print("{} {} {} {}".format(p,h,n,b))
+        print("{} {} \t{} \t{}".format(p,h,n,b))
