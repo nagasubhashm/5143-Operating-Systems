@@ -3,6 +3,8 @@
 
 ### Overview
 
+<img src='http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/vm_multiple_processes.png' width=500>
+
 - In this assignment you will test the efficacy of various virtual memory paging schemes.  You will implement four different paging schemes: 
   - First-In-First-Out
   - Least Recently Used 
