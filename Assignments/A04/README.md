@@ -112,6 +112,7 @@ Again, a file contains:
 
 And we would process this like:
 
+```
 1,0x6d  = Process 1 accesses line 109
 0,0x8   = Process 0 accesses line 008
 0,0x12  = Process 0 accesses line 018
@@ -121,6 +122,7 @@ And we would process this like:
 1,0x72  = Process 1 accesses line 114
 1,0x6d  = Process 1 accesses line 109
 2,0x6d  = Process 2 accesses line 109
+```
 
 Using these data accesses you should:
   - Check to see if "line x" is in virtual memory
