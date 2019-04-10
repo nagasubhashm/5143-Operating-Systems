@@ -28,7 +28,7 @@ def rand_address(vm_size=4096):
     address = 0
 
     if highlow > 0:
-        address = randint(hbase,vm_size)
+        address = randint(hbase,vm_size-1)
     else:
         address = randint(0,lbase)
 
@@ -50,8 +50,8 @@ def rand_instruction(vm_size=4096):
         instruction += bits[0]
     return str_binary(instruction,size)
 
-def write_sim_file(process_instructions,sim_num,np,vm):
-    name = "sim_{}_{}_{}.dat".format(sim_num,np,vm)
+def write_sim_file(process_instructions,sim_num,np,vm,pm):
+    name = "sim_{}_{}_{}_{}.dat".format(sim_num,np,vm,pm)
 
     f = open(os.path.join('snapshots',name),"w")
 
@@ -65,7 +65,7 @@ def gen_addresses(minimum_instructions,max_instructions,np,vm):
 
     for p in range(np):
         num_inst = randint(minimum_instructions,max_instructions)
-        sys.stdout.write("\t\t"+str(num_inst)+"\n")
+        #sys.stdout.write("\t\t"+str(num_inst)+"\n")
         for x in range(num_inst):
             process_addresses.append((p,rand_address(vm)))
 
@@ -86,26 +86,36 @@ if __name__=='__main__':
     #      +-------+
     seed(345678)
 
-    virt_mem_list = [256,512,1024,2048,4096,8192]
-    num_processes_list = [5,10,20,30,40,50,60,70,80,90,100,500]
-    num_processes_list = [5,10,20,30,40,50,100]
+    virt_mem_list = [1024,2048,4096,8192]
+    num_processes_list = [5,10,25,50,75,100]
+    physical_mem_size = [.25,.5,.75]
+
 
     minimum_instructions = 512
     max_instructions = int(pow(2,17))
 
     sim_num = 0
 
-    process_instructions = gen_addresses(minimum_instructions,max_instructions,3,128)
-    write_sim_file(process_instructions,sim_num,3,128)
+    process_instructions = gen_addresses(minimum_instructions,max_instructions,3,512)
+    write_sim_file(process_instructions,sim_num,3,512,256)
 
     sim_num += 1
 
     for vm in virt_mem_list:
-        sys.stdout.write(str(vm)+"\n")
         for np in num_processes_list:
-            sys.stdout.write("\t"+str(np)+"\n")
+            for ratio in physical_mem_size:
+                pm = int(ratio*vm)
+                print("{} \t{} \t{}".format(vm,np,pm))
+                process_instructions = gen_addresses(minimum_instructions,max_instructions,np,vm)
+                write_sim_file(process_instructions,sim_num,np,vm,pm)
+                sim_num += 1
 
-            process_instructions = gen_addresses(minimum_instructions,max_instructions,np,vm)
-            write_sim_file(process_instructions,sim_num,np,vm)
-            sim_num += 1
+    # for vm in virt_mem_list:
+    #     sys.stdout.write(str(vm)+"\n")
+    #     for np in num_processes_list:
+    #         sys.stdout.write("\t"+str(np)+"\n")
+
+    #         process_instructions = gen_addresses(minimum_instructions,max_instructions,np,vm)
+    #         write_sim_file(process_instructions,sim_num,np,vm)
+    #         sim_num += 1
             
