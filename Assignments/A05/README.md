@@ -3,7 +3,7 @@
 
 ### Overview
 
-<img src='http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/vm_multiple_processes.png' width=500>
+<img src='http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/processor_scheduling_project.png' width=500>
 
 - In this assignment you will test the efficacy of various scheduling algorithms.  You will implement the following: 
   - First Come First Serve(FCFS) Scheduling
