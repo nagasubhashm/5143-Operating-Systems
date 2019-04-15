@@ -14,6 +14,7 @@
 
 ----
 
+<<<<<<< HEAD
 - **First-In-First-Out (FIFO) Replacement**
     - On a page fault, the frame that has been in memory the longest is replaced.
 -  **Least Recently Used (LRU) Replacement**
@@ -27,10 +28,27 @@
     - The Optimal algorithm cheats. It looks forward in time to see which frame to replace on a page fault. Thus it is not a real replacement algorithm. It gives us a frame of reference for a given static frame access sequence.
 - **Random Replacement**
     - On a page fault, choose a frame at random and replace it.
+=======
+- **First Come First Serve(FCFS) Scheduling**
+    - First Come First Serve, is just like FIFO(First in First out) Queue data structure, where the data element which is added to the queue first, is the one who leaves the queue first.
+-  **Shortest-Job-First(SJF) Scheduling**
+    - Shortest Job First scheduling works on the process with the shortest burst time or duration first.
+- **Priority Scheduling**
+    - Priority is assigned for each process.
+    - Process with highest priority is executed first and so on.
+    - Processes with same priority are executed in FCFS manner.
+- **Round Robin(RR) Scheduling**
+    - A fixed time is allotted to each process, called quantum, for execution.
+- **Multilevel Queue Scheduling**
+  - TBD
+- **Multilevel Feedback Queue Scheduling**
+  - TBD
+>>>>>>> 42585f5514d1084ab961974337f5fdc880dd8530
 ----
 
 ### Components
 
+<<<<<<< HEAD
 You will write a python program that will simulate a page table for for each process. There will obviously be a lot of abstraction in our implementation, mainly we will be using strings as addresses and parsing strings to obtain page numbers ~~and offsets~~. Since we are not actually executing instructions, using bits as an offset into the page is not necessary for this simulation.
 
 The main component will be the page table itself. You can use whatever data structure you like, however I would recommend a setup similar to the following:
@@ -189,3 +207,6 @@ for item in data:
     
     print("p:{} , add:{}".format(p,add))
 ```
+=======
+# NOT DONE
+>>>>>>> 42585f5514d1084ab961974337f5fdc880dd8530
