@@ -9,4 +9,15 @@
  | [A04](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A04) | [ Virtual Memory ](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A04) | [ Simulation / Analysis](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A04) | [24 Apr](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A04) |
  | [A05](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A05) | [ Threading ](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A05) | [ Messing w/ Matrices](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A05) | [TBD](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A05) |
 
-<sup>Last Updated: 2020-01-21 (Tue @ 10:51)</sup>
+    
+## File Legend
+
+| Folder Name | Description |
+|:-----------|:-------------|
+|xx-**A**xx | This is some kind of an ***Assignment***, where an `assignment` can be anything that isn't big enough to be a full fledged program, and not specific enough to be a homework. |
+|xx-**H**xx | This is a ***Homework***. Something pretty specific, usually not requiring a lot of programming. |
+|xx-**P**xx | This is a ***Program***. Where is must be compile, run error free, commented, and correct. |
+|xx-**T**xx | This is a ***Test***. Usually when on github, it will start out as a study guide, then get accompanied with a solution after the exam. |
+
+    
+<sup>Last Updated: 2020-01-22 (Wed @ 13:43)</sup>
