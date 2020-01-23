@@ -1,6 +1,7 @@
 ## Shell Project - Implementation of a basic shell.
 ### Due: Multiple Dates
 
+#### Hold until class discussion
 - ~~Part 1 - Group Selection (posted on Slack) - Due: Jan 28<sup>th</sup>~~
 - ~~Part 2 - Repository Creation (link posted on Slack) - Due: Jan 30<sup>th</sup>~~ 
 - ~~Part 3 - Small Working Example - Due: Feb 11<sup>th</sup>~~
