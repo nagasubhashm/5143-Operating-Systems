@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-<<<<<<< HEAD
-from cmd_pkg.ls import ls 
-=======
->>>>>>> 5f181e36c8fb60184acd516f4a439b625b540e15
 import threading
 import sys
 from subprocess import call  # for demo purposes only
