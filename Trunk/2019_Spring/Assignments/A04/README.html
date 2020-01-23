@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+<link rel="stylesheet" href="file:///Users/griffin/codestyle.css" type="text/css">
+</head>
+<body>
+<h2 id="virtual-memory---simulation-analysis">Virtual Memory - Simulation / Analysis</h2>
+<h4 id="due-tbd">Due: TBD</h4>
+<h3 id="overview">Overview</h3>
+<img src='http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/vm_multiple_processes.png' width=300>
+<ul>
+<li>In this assignment you will test the efficacy of various virtual memory paging schemes.  You will implement four different paging schemes:
+<ul>
+<li>First-In-First-Out</li>
+<li>Least Recently Used</li>
+<li>Least Frequently Used</li>
+<li>Optimal Replacement</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li><strong>First-In-First-Out (FIFO) Replacement</strong>
+<ul>
+<li>On a page fault, the frame that has been in memory the longest is replaced.</li>
+</ul>
+</li>
+<li><strong>Least Recently Used (LRU) Replacement</strong>
+<ul>
+<li>On a page fault, the frame that was least recently used in replaced.</li>
+</ul>
+</li>
+<li><strong>Least Frequently Used (LFU) Replacement</strong>
+<ul>
+<li>This is a little more involved. We need to keep track of:
+<ul>
+<li><i><b>S<sub>t</sub></b></i> = Sum of <em><strong>all</strong></em> page accesses <em><strong>since</strong></em> time <i><b>t</b></i>.</li>
+<li><i><b>s<sub>i</sub></b></i> = Sum of page accesses for page <i><b>i</b></i>.</li>
+<li><i><b>f<sub>i</sub></b></i> = <i><b>s<sub>i</sub></b></i> / <i><b>S<sub>t</sub></b></i></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Optimal Replacement</strong>
+<ul>
+<li>The Optimal algorithm cheats. It looks forward in time to see which frame to replace on a page fault. Thus it is not a real replacement algorithm. It gives us a frame of reference for a given static frame access sequence.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="components">Components</h3>
+<p>You will write a python program that will simulate a page table for virtual memory. There will obviously be a lot of abstraction in our implementation, mainly we will be using strings as addresses and parsing strings to obtain page numbers and offsets.</p>
+<p>The main component will be the page table itself. You can use whatever data structure you like, however I would recommend asetup similar to the following:</p>
+<pre class="hljs"><code><div>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">page_frame</span><span class="hljs-params">(object)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">()</span>:</span>
+        self.valid_bit = <span class="hljs-keyword">False</span>
+        self.dirty = <span class="hljs-keyword">False</span>
+        self.last_access = <span class="hljs-number">0</span>
+        self.access_count = <span class="hljs-number">0</span>
+
+
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">page_table</span><span class="hljs-params">(object)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(virt_mem_size=<span class="hljs-number">4096</span>,phys_mem_size=<span class="hljs-number">128</span>,page_size=<span class="hljs-number">8</span>)</span>:</span>
+        self.vm_size = virt_mem_size
+        self.pm_size = phys_mem_size
+        self.page_size = page_size
+
+        self.page_table = {}    <span class="hljs-comment"># dictionary of page_frames</span>
+    
+</div></code></pre>
+<h3 id="processes-instructions">Processes / Instructions</h3>
+<p>A process in the case of our simulation will be a space delimited file of randomly generated hex addresses. These hex addresses will be considered <code>memory accesses</code>. So, there are no real &quot;instructions&quot; (e.g. <code>add R3 , R2, R0</code> or <code>ld R1 1024(R7)</code>). There are simply simulated memory accesses.</p>
+<p>Each <code>process_id</code> will be accompanied with a <code>hex address</code>. An example input file could look like:</p>
+<pre class="hljs"><code><div>1,0x6d 1,0x8 1,0x12 1,0x22 1,0x10 1,0xf 1,0x72 1,0x2 2,0x9 1,0x78 1,0xa 1,0x6d 1,0x7 0,0xf 0,0x73 2,0x1 0,0x5 1,0xd 1,0x5 1,0x22 1,0x26 1,0x69 1,0x7 1,0xf 1,0x1d 1,0x79 1,0x4 1,0x16 1,0x22 1,0x7a 0,0xa 1,0x7a 1,0x5 2,0x72 0,0x21 1,0x17 1,0x16 1,0x17 2,0x7c 2,0x72 1,0x9 0,0x18 1,0x1e 1,0x5 1,0x7a 1,0x71 1,0x19 1,0x20 1,0x66 1,0x75 1,0x24 1,0x10 1,0x1f 1,0x77 0,0x11 1,0x69 1,0x15 0,0x74 1,0x6b 1,0xe 1,0xb 0,0x7e 0,0x73 1,0x74 1,0x74 0,0x18 2,0x25 1,0x1a 1,0xa 1,0xa 2,0x17 1,0x78 1,0x20 1,0x7 1,0xd 2,0x6b 0,0x67 1,0x15 1,0x7b 2,0xc 1,0x3 1,0x6e 1,0x7f 1,0x24 2,0x69 0,0x1b 1,0x5 1,0x23 1,0x1f 0,0x12 2,0x14 1,0x16 1,0x7c 1,0x7d 1,0x26 1,0x13 1,0x4 1,0x74 0,0x69 1,0x8 1,0x25 1,0x1c 1,0x1d 0,0x14 1,0x6 1,0x15 1,0x5 1,0x1c 1,0x7f 1,0x6c 1,0x4 0,0x17 1,0x6 0,0x6 1,0xa 1,0xe 1,0x76 0,0x14 1,0x70 0,0x80 2,0x74 2,0xa 0,0x71 0,0x70 0,0x19 0,0xd 0,0x4 1,0x15 1,0x1f 1,0x20 1,0x1e 0,0x6c 0,
+</div></code></pre>
+<ul>
+<li>Input files can be obtained from: <code>http://cs.mwsu.edu/~griffin/vm_snapshots/</code></li>
+<li>Python has a library called <code>Requests</code>: http://docs.python-requests.org/en/master/user/quickstart/</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-keyword">import</span> requests
+
+r = requests.get(<span class="hljs-string">'http://cs.mwsu.edu/~griffin/vm_snapshots/sim_0_3_128.dat'</span>)
+
+data = r.text.split(<span class="hljs-string">' '</span>)
+
+<span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> data:
+    p,add = item.split(<span class="hljs-string">','</span>)
+    
+    print(<span class="hljs-string">"p:{} , add:{}"</span>.format(p,add))
+</div></code></pre>
+<h3 id="running-your-program">Running your Program</h3>
+<p>Your program should be configurable from the command line giving sizes for each component in bytes. For example:</p>
+<pre class="hljs"><code><div>python virtual.py vm=2048 pm=1024 ps=256 n=15
+</div></code></pre>
+<p>Where this run would be configured using:</p>
+<ul>
+<li>vm = 2048 bytes of virtual memory</li>
+<li>pm = 1024 bytes of physical memory</li>
+<li>ps = 256 bytes</li>
+<li>n = number of processes</li>
+</ul>
+<p>Usefull function to grab key value pairs off of command line:</p>
+<blockquote>
+<p>NOTE: Must be <code>key=val</code> with no spaces!</p>
+</blockquote>
+<pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">kvargs</span><span class="hljs-params">(sysargs)</span>:</span>
+    args = {}
+
+    <span class="hljs-comment"># traverse copy of sys.argv skipping first element</span>
+    <span class="hljs-keyword">for</span> val <span class="hljs-keyword">in</span> sysargs[<span class="hljs-number">1</span>:]:
+        k,v = val.split(<span class="hljs-string">'='</span>)
+        args[k] = v
+    <span class="hljs-keyword">return</span> args
+</div></code></pre>
+<h3 id="page-fault">Page Fault</h3>
+<ul>
+<li>A page fault is when the CPU requests an address and its mapping shows it not to be in main memory. In other words, we need to access disk, replace a page in memory with the newly accessed page.</li>
+<li>Do we need to write the old page back to disk? Only if any portion of the page was changed (diry bit), but we are not looking for any changes in this simulation.</li>
+</ul>
+<h3 id="purpose-of-simulation">Purpose of Simulation</h3>
+<ul>
+<li>Simply, we are counting page faults using each of the scheduling algorithms.</li>
+</ul>
+<h3 id="deliverables">Deliverables</h3>
+<ul>
+<li>Create a folder called <code>A04</code> in your assignments folder.</li>
+<li>Write a <code>driver.py</code> that will read in every file in a folder called <code>vm_snapshots</code>.</li>
+<li>The naming convention of each file will determine the virtual memory size and number of processes.</li>
+<li>Your code will loop through a predefined set of page sizes (to be discussed in class).</li>
+<li>You will provide a plot diagram for each &quot;run&quot; that you perform (to be discussed in class).</li>
+<li>All code used should be in your assignment folder.</li>
+<li>All diagrams created should be in your assignment folder.</li>
+</ul>
+<h4 id="possible-runs">Possible Runs</h4>
+<ul>
+<li>Loop through each file : ['./snapshots/sim_1_5_256.dat' , ... , './snapshots/sim_35_100_4096.dat']</li>
+<li>Nameing convention:
+<ul>
+<li><code>sim_20_50_1024</code></li>
+<li><code>20</code> = <code>Filenumber</code></li>
+<li><code>50</code> = <code>Number of processes</code></li>
+<li><code>1024</code> = <code>Virtual Memory size</code></li>
+</ul>
+</li>
+<li>Virtual Memory (<code>VM</code>) is typically 1.5 - 4 times the size of physical memory so we should test our simulation on multiple physical memory (<code>PM</code>) sizes.
+<ul>
+<li><code>VM</code> = 1024</li>
+<li>Possible <code>PM</code> sizes:
+<ul>
+<li>2^9 = 512</li>
+<li>2^8 = 256</li>
+<li>2^7 = 128</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>More coming ... Discuss in class...</p>
+
+</body>
+</html>
