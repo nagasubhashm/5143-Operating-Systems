@@ -1,11 +1,11 @@
 ## Shell Project - Implementation of a basic shell.
 ### Due: Multiple Dates
 
-- Part 1 - Group Selection (posted on Slack) - Due: Jan 28<sup>th</sup> 
-- Part 2 - Repository Creation (link posted on Slack) - Due: Jan 30<sup>th</sup> 
-- Part 3 - Small Working Example - Due: Feb 11<sup>th</sup>
-- Part 4 - Final Product - Due: Feb 18<sup>th</sup>
-- Part 5 - Project Presentations - Feb 18<sup>th</sup> - 20<sup>th</sup>
+- ~~Part 1 - Group Selection (posted on Slack) - Due: Jan 28<sup>th</sup> ~~
+- ~~Part 2 - Repository Creation (link posted on Slack) - Due: Jan 30<sup>th</sup>~~ 
+- ~~Part 3 - Small Working Example - Due: Feb 11<sup>th</sup>~~
+- ~~Part 4 - Final Product - Due: Feb 18<sup>th</sup>~~
+- ~~Part 5 - Project Presentations - Feb 18<sup>th</sup> - 20<sup>th</sup>~~
 
 ## Overview
 
