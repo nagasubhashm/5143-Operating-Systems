@@ -15,8 +15,8 @@
 | ------- | --------------------------- | ------ | ----- |
 |         | [README.md](#shell-project) | Raj    |       |
 |         | [Shell.py](#shell-project)  | Joe    | :100: |
-| ls      | [ls.cpp](#shell-project)    | Sue    | :100: |
-| mv      | [mv.cpp](#shell-project)    | Sue    | :x:   |
+| ls      | [ls.py](#shell-project)    | Sue    | :100: |
+| mv      | [mv.py](#shell-project)    | Sue    | :x:   |
 
 #### Directory Structure
 
