@@ -2,11 +2,11 @@
 ### Due: Multiple Dates
 
 #### Hold until class discussion
-- ~~Part 1 - Group Selection (posted on Slack) - Due: Jan 28<sup>th</sup>~~
-- ~~Part 2 - Repository Creation (link posted on Slack) - Due: Jan 30<sup>th</sup>~~ 
-- ~~Part 3 - Small Working Example - Due: Feb 11<sup>th</sup>~~
-- ~~Part 4 - Final Product - Due: Feb 18<sup>th</sup>~~
-- ~~Part 5 - Project Presentations - Feb 18<sup>th</sup> - 20<sup>th</sup>~~
+
+- Part 1 - Repository Creation & Repo Creation - Due: Feb 4<sup>th</sup> 
+- Part 2 - Small Working Example - Due: Feb 11<sup>th</sup>
+- Part 3 - Final Product - Due: Feb 25<sup>th</sup>
+- Part 4 - Project Presentations - Feb 25<sup>th</sup> - 27<sup>th</sup>
 
 ## Overview
 
@@ -143,87 +143,34 @@ The above implementations of the `ls` command with the `-l` flag, are NOT an imp
 
 ## Deliverables
 
-***Part 1 - Group Selection***
-- Put a message on the course channel (not a direct message to me) with the following format:
+#### General
 
->Group Members
->
-| Name   | Email       | Github Username |
-| ------ | ----------- | --------------- |
-| Name 1 | Email.One   | username_one    |
-| Name 2 | Email.Two   | username_two    |
-| Name 3 | Email.Three | username_three  |
+- Ultimately your shell will go in your Assignments folder on github in a folder called `P01-Shell`.
+- Each group member will have a copy of the project on their repo.
+- The README.md file at the top level of your repository will have ALL pertinent information about your project: [Example README.md](./ExampleReadme.md).
+- This readme will grow as the project grows.
+- At a minimum the readme will contain lists and tables of:
+  - group members with links to thier repositories
+  - files with descriptions and links to each individual file
+  - table of commands that were implemented and links to the documentation for the command
 
-***Part 2***
+#### Repo
 - Create a private repository on github.
 - Invite rugbyprof to be a collaborator.
-- Place your group names on the README.md along with a description (see below).
-- Even though your shell will have its own private repo, each member must (by the final due date) have a copy on thier course repo:
-  - In your `assignments/shell` folder from Part 1. 
-  - Create a file called `shell.py` in the `shell` folder.
-  - Create a file called `README.md` in your `shell` folder.
-  - Additional files are ok, for example if you want to place each "command" in a seperate file for organizational purposes, that would be not only acceptable, but encouraged.
-
-***Part 3 and Part 4***
-#### `shell.py`
-
-- This file is where your shell code will exist and be executed from. 
-- You should code in a modular format with comments that are commensurate with graduate work.
-
-#### `README.md`
-
-- This file will list pertinant information to include (at a minimum):
-- Date
-- Project Title
-- Project description 
-    - With a list of all commands implemented
-    - Indicate who in the group wrote the specific command.
-    - Make a note of any commands that do not work or are not implemented.
-    - The documentation of non-working portions of the shell will be viewed favorably by me. 
-    - Passing off  portions of the shell as working when they don't will affect your grade considerably.
-- A references section that cites any sources used to assist your group in creating the shell. 
-    - Using some external code is ok as long as you follow the following guidelines:
-        - Cite the source of the code in the `README.md` and in the comments of the `shell.py` file. 
-        - Only use small portions of external code. 
-   - I reserve the right to make any final decisions on whether your group is obtaining too much external help. If your not sure, ask.
-- Group Members
-- Any instructions necessary to ensure I run your code correctly.
-
-### Example Readme
-
----
-
-#### 20 Feb 2019
-#### 5143 Shell Project 
-
-#### Group Members
-
-- Person 1
-- Person 2
-
-#### Overview:
-This is a project written in python that implements a basic shell ......
+- Your readme will go in the repo.
+- Even though your shell will have its own private repo, each member must (by the final due date) have a copy in thier assignments folder on thier own course repo.
 
 
-#### Instructions
-Only give instructions for the general running of your shell and anything you feel is pertinent
+#### Source Code
 
-- To run `ls` ...
-
-***Commands***:
-
-| command |    description    | Author | Notes |
-| :-----: | :---------------: | :----: | :---: |
-|   ls    | directory listing | Anusha |       |
-|   pwd   | working directory |  Raj   |       |
-|  etc.   |        etc        |  etc   |       |
+- Should be organized into seperate files.
+- Every command should be in its own file.
+- Each file should have a comment at the top which will be used as part of the projects "help" feature. Python has ways of pulling comments in for help if you organize your project into modules correctly.
+- Links to each file will end up in your README.md.
+- I cannot stress enough how amazing your readme should be. It's how I will grade your projects, aside from presentation day. 
 
 
-***Non Working Components***
 
 
-***References***
 
-- site1
-- site2
 
