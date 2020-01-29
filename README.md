@@ -8,16 +8,22 @@
 - Language: English
 - ISBN-10: 013230998X
 
+### Roster
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1BQ7jLcJzRbNs27ir5Pb3_IS9UruNFTCwTmm5DoPAqp4/edit?usp=sharing)
 
-- Days: MW 400pm - 520pm 
-- Location: BO 320
-- [Final Exam](https://msutexas.edu/registrar/_assets/files/pdfs/spring19finals.pdf): Mon May 6<sup>th</sup>, 5:45-7:45 p.m. `(Final is Mandatory no leaving before finals week.)`
-- Dates: January 14 - May 3
-- Holidays: 
-    - Martin Luther King: January 21 
-    - Spring Break: March 18-22
-    - Easter Break April 17-19
-- Last Day for “W”: March 25
+
+### General Course Info
+- __Days:__ TTh 5:30 p.m. - 6:50 p.m. 
+- __Location:__ BO 320
+- [__Semester:__](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal1920.pdf)Tue Jan 21<sup>st</sup> - Wed May 8<sup>th</sup>
+- [__Holidays:__](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal1920.pdf)
+  - __Martin Luther King's Birthday__ Mon Jan 20<sup>th</sup>
+  - __Spring Break:__ Mon Mar 16<sup>th</sup> - Fri Mar 21<sup>st</sup> 
+  - __Easter Break:__ Wed Apr 8<sup>th</sup> - Fri Apr 10<sup>th</sup>
+- [__Last Day for “W”:__](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal1920.pdf) Mon Mar 30<sup>th</sup>
+- [__Last Day of Class:__](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal1920.pdf) Fri May 8<sup>th</sup>
+- [__Final Exam:__](https://msutexas.edu/registrar/_assets/files/pdfs/spring20finals.pdf) Wednesday May 13<sup>th</sup>, 8:00 a.m. - 10:00 p.m.
+
 
 ## Topics
 

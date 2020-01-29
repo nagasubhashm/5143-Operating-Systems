@@ -1,2 +1,4 @@
 Private/
 shell_class.py
+*.dat
+\.vscode/
