@@ -154,7 +154,7 @@ are both command line arguments to the command `ls`. We can do similar with our 
 Let's look at an example.
 
 **mycopy.sh**
-```bash
+```sh
 #!/bin/bash
 # A simple copy script
 
@@ -221,7 +221,7 @@ Here is a simple example to illustrate their usage.
 
 **simplevariables.sh**
 
-```bash
+```sh
 #!/bin/bash
 # A simple variable example
 
@@ -704,13 +704,13 @@ Let's look at a simple example:
 
 **if_example.sh**
 
-```bash
+```sh
 #!/bin/bash
 # Basic if statement
 
 if [ $1 -gt 100 ]
 then
-    echo Hey that's a large number.
+    echo Hey thats a large number.
     pwd
 fi
 date
