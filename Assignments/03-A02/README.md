@@ -1,4 +1,4 @@
-## Assignments A02 - Open MP
+## A02 Open MP - Getting started
 #### Due: 02-18-2020 (Tuesday @ 5:30 p.m.)
 
 ### Overview
