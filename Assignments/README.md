@@ -3,7 +3,7 @@
  | ------------|------------|------------|------------|
  | [01-A01](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/01-A01) | [ Assignment 1 ](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/01-A01) | [ Getting Started](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/01-A01) | [01-25-2020 (Saturday @ 12:00 p.m.)](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/01-A01) |
  | [02-P01](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/02-P01) | [ Shell Project ](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/02-P01) | [ Implementation of a basic shell.](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/02-P01) | [Multiple Dates](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/02-P01) |
- | [A02](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A02) | [ Assignments A02 ](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A02) | [ No Description](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A02) | [N/A](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/A02) |
+ | [03-A02](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/03-A02) | [ Assignments A02 ](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/03-A02) | [ Open MP](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/03-A02) | [02-18-2020 (Tuesday @ 5:30 p.m.)](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/03-A02) |
 
     
 ## File Legend
@@ -16,4 +16,4 @@
 |xx-**T**xx | This is a ***Test***. Usually when on github, it will start out as a study guide, then get accompanied with a solution after the exam. |
 
     
-<sup>Last Updated: 2020-01-31 (Fri @ 11:59)</sup>
+<sup>Last Updated: 2020-02-11 (Tue @ 17:29)</sup>
