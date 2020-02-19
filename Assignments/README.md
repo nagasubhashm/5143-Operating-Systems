@@ -16,4 +16,8 @@
 |xx-**T**xx | This is a ***Test***. Usually when on github, it will start out as a study guide, then get accompanied with a solution after the exam. |
 
     
+<<<<<<< HEAD
 <sup>Last Updated: 2020-02-19 (Wed @ 17:51)</sup>
+=======
+<sup>Last Updated: 2020-02-18 (Tue @ 22:54)</sup>
+>>>>>>> 40d4dadc1d18f5d837603fab4c0a69d41ac6f646
