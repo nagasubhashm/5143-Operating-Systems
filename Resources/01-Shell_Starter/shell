@@ -30,6 +30,17 @@ def pwd(**kwargs):
     command.extend(params)
     call(command)
 
+def cat(files=[]):
+    if(len(files) == 0):
+        return
+    else:
+        allofit = ""
+        for f in files:
+            file_object = open(f, "r") 
+            data = f.read()
+            allofit += data
+    return allofit
+
 
 def exit(**kwargs):
     sys.exit()
