@@ -1,0 +1,513 @@
+---
+lang: 'en-US'
+msapplication-TileImage: 'https://secureservercdn.net/160.153.137.210/11v.681.myftpupload.com/wp-content/uploads/2016/01/cropped-1000projects\_logo1-270x270.png'
+title: 'Distribution System Project Ideas -- Page 2 -- 1000 Projects'
+viewport: 'width=device-width, initial-scale=1'
+---
+
+::: {#fb-root}
+:::
+
+::: {#page .site}
+[Skip to content](#content){.skip-link .screen-reader-text}
+
+::: {.custom-header}
+::: {.custom-header-media}
+:::
+
+::: {.site-branding}
+::: {.wrap}
+[![1000
+Projects](https://secureservercdn.net/160.153.137.210/11v.681.myftpupload.com/wp-content/uploads/2014/10/cropped-1000-Projects-Logo.png?time=1583233380){.custom-logo
+width="645" height="250"
+sizes="(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px"
+srcset="https://secureservercdn.net/160.153.137.210/11v.681.myftpupload.com/wp-content/uploads/2014/10/cropped-1000-Projects-Logo.png 645w, https://secureservercdn.net/160.153.137.210/11v.681.myftpupload.com/wp-content/uploads/2014/10/cropped-1000-Projects-Logo-300x116.png 300w"}](https://1000projects.org/){.custom-logo-link}
+
+::: {.site-branding-text}
+[1000 Projects](https://1000projects.org/)
+
+Free BTech BE Projects \| MTech ME Projects \| Msc MCA Projects
+:::
+:::
+:::
+:::
+
+::: {.navigation-top}
+::: {.wrap}
+Menu
+
+::: {.menu-main-nav-container}
+-   [[Home](https://1000projects.org/)]{#menu-item-46082}
+-   [[Python](https://1000projects.org/python-projects.html)]{#menu-item-46306}
+-   [[JAVA](https://1000projects.org/java-mini-projects-for-bca-mca-and-btech.html)]{#menu-item-47547}
+-   [[IOT
+    Projects](https://1000projects.org/advanced-major-project-list-ece-eee.html)]{#menu-item-46920}
+-   [[Android](https://1000projects.org/academic-android-projects.html)]{#menu-item-47608}
+-   [[PHP](https://1000projects.org/php-web-projects.html)]{#menu-item-56550}
+-   [Other Projects]{#menu-item-46096}
+    -   [[.Net](https://1000projects.org/projects/net-projects)]{#menu-item-47548}
+    -   [[Big Data
+        Hadoop](https://1000projects.org/big-data-hadoop-projects-titles.html)]{#menu-item-47968}
+    -   [[Mechatronics](https://1000projects.org/advanced-mechanical-projects.html)]{#menu-item-46852}
+-   [[Internships](https://1000projects.org/internship-inplant-real-time-project-training.html)]{#menu-item-48362}
+-   [[Contact
+    Us](https://1000projects.org/contact-us.html)]{#menu-item-46090}
+:::
+:::
+:::
+
+::: {.site-content-contain}
+::: {#content .site-content}
+::: {.wrap}
+Category: Distribution System Project Ideas {#category-distribution-system-project-ideas .page-title}
+===========================================
+
+::: {.taxonomy-description}
+This category consists of Project ideas for final year students on
+Distributed system and its applications. B.tech cse students can
+download latest ideas and topics with reports with source code in
+asp.net. Students can use these topics as mini and major cse project.
+:::
+
+::: {#primary .content-area}
+::: {#main .site-main role="main"}
+::: {.code-block .code-block-4 style="margin: 8px auto; text-align: center; display: block; clear: both;"}
+[]{.underline}
+:::
+
+::: {.entry-meta}
+[ Posted on ]{.screen-reader-text} [January 12, 2012 November 29,
+2012](https://1000projects.org/robust-spanning-tree-topology-for-data-collection-and-dissemination-in-distributed-environment.html)
+:::
+
+[Robust Spanning Tree Topology for Data Collection and Dissemination in Distributed Environment](https://1000projects.org/robust-spanning-tree-topology-for-data-collection-and-dissemination-in-distributed-environment.html) {#robust-spanning-tree-topology-for-data-collection-and-dissemination-in-distributed-environment .entry-title}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+::: {.entry-content}
+<div>
+
+[ Robust Spanning Tree Topology for Data Collection and Dissemination in
+Distributed Environment Project Document contains:
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+</div>
+
+1.  [ Introduction of the project
+    ]{style="font-size: medium; font-family: georgia, palatino;"}
+2.  [ Project Literature Survey
+    ]{style="font-size: medium; font-family: georgia, palatino;"}
+3.  [ Analysis Phase and Design Phase
+    ]{style="font-size: medium; font-family: georgia, palatino;"}
+4.  [ Implementation & coding of the project
+    ]{style="font-size: medium; font-family: georgia, palatino;"}
+5.  [ Testing phase  and Debugging phase
+    ]{style="font-size: medium; font-family: georgia, palatino;"}
+6.  [ Conclusion of the project
+    ]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ Software requirements: ]{style="font-size: medium; font-family: georgia, palatino;"}
+--------------------------------------------------------------------------------------
+
+[ Operating System Used: Windows 2000 / XP, Linux Fedora Core 4.
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ Programming Languages/Software Used: Java Run time Environment, Java
+Development Kit 1.6.0
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ **[![Robust Spanning Tree Topology for Data Collection and
+Dissemination in Distributed
+Environment](https://secureservercdn.net/160.153.137.210/11v.681.myftpupload.com/wp-content/uploads/2012/01/Robust-Spanning-Tree-Topology-for-Data-Collection-and-Dissemination-in-Distributed-Environment-276x300.jpg "Robust Spanning Tree Topology for Data Collection and Dissemination in Distributed Environment"){.alignleft
+.size-medium .wp-image-6975 width="276" height="300"
+sizes="(max-width: 276px) 100vw, 276px"
+srcset="https://secureservercdn.net/160.153.137.210/11v.681.myftpupload.com/wp-content/uploads/2012/01/Robust-Spanning-Tree-Topology-for-Data-Collection-and-Dissemination-in-Distributed-Environment-276x300.jpg 276w, https://secureservercdn.net/160.153.137.210/11v.681.myftpupload.com/wp-content/uploads/2012/01/Robust-Spanning-Tree-Topology-for-Data-Collection-and-Dissemination-in-Distributed-Environment.jpg 443w"}](https://secureservercdn.net/160.153.137.210/11v.681.myftpupload.com/wp-content/uploads/2012/01/Robust-Spanning-Tree-Topology-for-Data-Collection-and-Dissemination-in-Distributed-Environment.jpg)
+Hardware requirements** :
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ Architecture
+]{style="font-family: georgia, palatino; font-size: small;"} [ :
+Pentium-4 PC
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ Hard Disk: 20 GB hard-disk
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ RAM SIZE: 256 MB RAM
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ Equipment: Keyboard, Mouse Not-Applicable
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[
+**[Download](https://secureservercdn.net/160.153.137.210/11v.681.myftpupload.com/sr1p/ie1p/robust-sp.zip "robust-spanning-tree-topology-for-data-collection-and-dissemination-in-distributed-environment")**
+**Robust Spanning Tree Topology for Data Collection and Dissemination in
+Distributed Environment Project**
+]{style="font-size: medium; font-family: georgia, palatino;"}
+:::
+
+::: {.entry-meta}
+[ Posted on ]{.screen-reader-text} [January 11, 2012 August 4,
+2012](https://1000projects.org/distributed-system-on-one-lane-bridge-project-idea.html)
+:::
+
+[Distributed System on One Lane Bridge Project Idea](https://1000projects.org/distributed-system-on-one-lane-bridge-project-idea.html) {#distributed-system-on-one-lane-bridge-project-idea .entry-title}
+--------------------------------------------------------------------------------------------------------------------------------------
+
+::: {.entry-content}
+[ [ **Distributed system on One Lane Bridge** ]{style="color: #0000ff;"}
+project idea is to provide solution for vehicles coming from different
+ direction to cross one lane bridge.
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ Develop a server process to manage use of the bridge. Assume the cars
+are client processes that can
+]{style="font-size: medium; font-family: georgia, palatino;"} [ remotely
+get connect to the server at any time.
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ In your simulation program, have new cars join in the session remotely
+and each car repeatedly try to
+]{style="font-size: medium; font-family: georgia, palatino;"} [ cross
+the bridge. They should spend a random amount of time on the bridge and
+should delay for a
+]{style="font-size: medium; font-family: georgia, palatino;"} [ random
+amount of time before crossing again. Each car client can specify some
+parameters such as its
+]{style="font-size: medium; font-family: georgia, palatino;"} [ speed,
+average delaying time after crossing, initial heading direction etc.
+Ideally, each client should get a
+]{style="font-size: medium; font-family: georgia, palatino;"} [
+graphical interface showing the current status on the bridge
+utilization.
+]{style="font-size: medium; font-family: georgia, palatino;"}
+:::
+
+::: {.entry-meta}
+[ Posted on ]{.screen-reader-text} [January 11, 2012 August 4,
+2012](https://1000projects.org/final-year-distributed-system-project-idea-on-stock-market-simulation-game.html)
+:::
+
+[Final Year Distributed System Project Idea on Stock Market Simulation Game](https://1000projects.org/final-year-distributed-system-project-idea-on-stock-market-simulation-game.html) {#final-year-distributed-system-project-idea-on-stock-market-simulation-game .entry-title}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+::: {.entry-content}
+[ [ **Implement a stock market simulation game**
+]{style="color: #0000ff;"} for several human players and several
+computer players.
+]{style="font-size: medium; font-family: georgia, palatino;"} [ You are
+to create a fast-paced on-line interactive game of stock market, which
+has many of the
+]{style="font-size: medium; font-family: georgia, palatino;"} [
+characteristics of electronic commerce. The entities in the game are a
+bank, a stock exchange, several
+]{style="font-size: medium; font-family: georgia, palatino;"} [
+companies and several players. The time between events has been
+significantly accelerated to make the
+]{style="font-size: medium; font-family: georgia, palatino;"} [ game
+more challenging and interesting.
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ **Bank** : The one bank holds the cash of any player.
+]{style="font-size: medium; font-family: georgia, palatino;"}\
+[ A player can request a new account, deposit and withdraw money from
+the account. The bank has a
+]{style="font-size: medium; font-family: georgia, palatino;"} [ maximum
+of 10 accounts. Once every minute during the game, all money in an
+account accumulates 1%
+]{style="font-size: medium; font-family: georgia, palatino;"} [
+interest. ]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ **Company** : A company has a name and issues stock. Once a minute,
+the company's price of the stock is
+]{style="font-size: medium; font-family: georgia, palatino;"} [ adjusted
+based on a random process and the law of supply and demand. Initially
+each company has 1000
+]{style="font-size: medium; font-family: georgia, palatino;"} [ shares
+of stock, which starts at \$30 a share. There are several companies for
+example three to ten in the
+]{style="font-size: medium; font-family: georgia, palatino;"} [ game. A
+company buys or sells shares to a player by accepting or rejecting the
+player's bid. The process
+]{style="font-size: medium; font-family: georgia, palatino;"} [ of
+deciding to accept or reject may be random or based on sound business
+practices. ]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ **Player** : There can be two types of players -- human and computer.
+A player starts with \$1000 and buys and
+]{style="font-size: medium; font-family: georgia, palatino;"} [ sells
+stock from companies or other players by trading through the stock
+exchange. The goal of a player is
+]{style="font-size: medium; font-family: georgia, palatino;"} [ to make
+money. A player buys or sells shares from another player or a company by
+posting bids on the
+]{style="font-size: medium; font-family: georgia, palatino;"} [ stock
+exchange. The company or the other player may accept or reject the
+player's bid. The process of
+]{style="font-size: medium; font-family: georgia, palatino;"} [ deciding
+how the computer-based player accepts or rejects may be random or based
+on sound business
+]{style="font-size: medium; font-family: georgia, palatino;"} [
+practices. There are two to ten players.
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ **Stock Exchange** : Players and companies must register with the
+stock exchange. All trading of stocks must
+]{style="font-size: medium; font-family: georgia, palatino;"} [ go
+through the centralized stock exchange. The stock exchange posts current
+bids and the prices of recent
+]{style="font-size: medium; font-family: georgia, palatino;"} [
+transactions on each stock.
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ The winner is the player with the highest total value in cash and
+stock value after a certain period of time.
+]{style="font-size: medium; font-family: georgia, palatino;"} [ Of
+course, a player can not buy shares of stock that don't exist and he or
+she must have enough cash to
+]{style="font-size: medium; font-family: georgia, palatino;"} [ purchase
+the desired shares. The bank, stock exchange, companies and computer
+players are trusted
+]{style="font-size: medium; font-family: georgia, palatino;"} [
+entities, i.e., they don't cheat.
+]{style="font-size: medium; font-family: georgia, palatino;"}
+:::
+
+::: {.entry-meta}
+[ Posted on ]{.screen-reader-text} [January 11, 2012 August 4,
+2012](https://1000projects.org/final-year-distributed-system-project-idea-on-replicated-file-system.html)
+:::
+
+[Final Year Distributed System Project Idea on Replicated File System](https://1000projects.org/final-year-distributed-system-project-idea-on-replicated-file-system.html) {#final-year-distributed-system-project-idea-on-replicated-file-system .entry-title}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+::: {.entry-content}
+[ [ **Replicated file Distributed system project idea**
+]{style="color: #0000ff;"} explains a simple way to increase the
+likelihood that a critical data file is always
+]{style="font-size: medium; font-family: georgia, palatino;"} [
+accessible is to keep a back-up copy of the file on another disk,
+usually one that is attached to a different
+]{style="font-size: medium; font-family: georgia, palatino;"} [ machine.
+The file system provides transparent replication. In particular, suppose
+there are n copies of a
+]{style="font-size: medium; font-family: georgia, palatino;"} [ data
+file and n server modules. Each server provides access to one copy of
+the file. A client interacts with
+]{style="font-size: medium; font-family: georgia, palatino;"} [ any one
+of the server modules. The servers interact with each other to present
+clients with the illusion that
+]{style="font-size: medium; font-family: georgia, palatino;"} [ there is
+a single copy of the file. Each file exports four operations: open,
+close, read and write for client.
+]{style="font-size: medium; font-family: georgia, palatino;"} [ The file
+servers interact with each other to ensure that copies of the file are
+kept consistent and that at
+]{style="font-size: medium; font-family: georgia, palatino;"} [ most one
+client at a time is permitted to write into the file. Each file servers
+has a local lock manager
+]{style="font-size: medium; font-family: georgia, palatino;"} [ process
+that implements a solution to the readers/writer problem. Some points to
+bear in mind.
+]{style="font-size: medium; font-family: georgia, palatino;"} [\
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ **a.** Each fileserver exports two sets of operations: those called by
+its clients and those called by other
+]{style="font-size: medium; font-family: georgia, palatino;"} [ file
+servers. Each server module keeps track of current access mode by using
+a lock manager. For example,
+]{style="font-size: medium; font-family: georgia, palatino;"} [ the file
+is not written if it was opened for reading. Multiple readings however
+are allowed. If a certain
+]{style="font-size: medium; font-family: georgia, palatino;"} [
+operation needs to get permission from all lock managers, please acquire
+the locks in the same order for
+]{style="font-size: medium; font-family: georgia, palatino;"} [ all
+clients. Otherwise, deadlock may occur.
+]{style="font-family: georgia, palatino; font-size: medium;"}
+
+[ **b.** Within write procedure, a module first update its local copy
+then concurrently updates every remote
+]{style="font-size: medium; font-family: georgia, palatino;"}\
+[ copy. It is analogous to using a write-through cache update policy. An
+alternative approach would be to
+]{style="font-size: medium; font-family: georgia, palatino;"}\
+[ update the remote copy when the file is closed.
+]{style="font-size: medium; font-family: georgia, palatino;"}
+
+[ **Demo purpose:** Store duplicated simple text files in several
+fileservers for demo purpose. Write operation
+]{style="font-size: medium; font-family: georgia, palatino;"}\
+[ just simply appends more text to the file. Client gets connected to
+any fileserver in a graphical user
+]{style="font-size: medium; font-family: georgia, palatino;"} [
+interface. ]{style="font-size: medium; font-family: georgia, palatino;"}
+:::
+
+::: {.code-block .code-block-5 style="margin: 8px auto; text-align: center; display: block; clear: both;"}
+[]{.underline}
+:::
+
+Posts navigation {#posts-navigation .screen-reader-text}
+----------------
+
+::: {.nav-links}
+[ Previous page ]{.screen-reader-text} [[ Page ]{.meta-nav
+.screen-reader-text}
+1](https://1000projects.org/projects/distribution-system-project-ideas/){.page-numbers}
+[ [ Page ]{.meta-nav .screen-reader-text} 2 ]{.page-numbers .current
+aria-current="page"}
+:::
+:::
+:::
+
+::: {#text-4 .section .widget .widget_text}
+Face Book {#face-book .widget-title}
+---------
+
+::: {.textwidget}
+::: {align="left" style="border:0px solid black"}
+::: {.fb-like-box header="true" data-height="250" data-href="http://www.facebook.com/1000projects" show-faces="true" stream="false" data-width="250"}
+:::
+:::
+:::
+:::
+
+::: {#search-3 .section .widget .widget_search}
+Search {#search .widget-title}
+------
+
+[ Search for: ]{.screen-reader-text}
+
+[ Search ]{.screen-reader-text}
+:::
+
+::: {#recent-comments-5 .section .widget .widget_recent_comments}
+Comments {#comments .widget-title}
+--------
+
+-   [ lekhik patnaik ]{.comment-author-link} on [2018 -- 2019 ECE and
+    EEE major projects
+    List](https://1000projects.org/2018-2019-ece-and-eee-major-projects-list.html/comment-page-1#comment-409095)
+-   [ Collins ]{.comment-author-link} on [Airline Ticket Reservation
+    System Project in
+    Java](https://1000projects.org/airline-ticket-reservation-system-project-in-java.html/comment-page-2#comment-409091)
+-   [ Seun ]{.comment-author-link} on [Village Development System Python
+    Project](https://1000projects.org/village-development-system-python-project.html/comment-page-1#comment-409087)
+-   [ Shravan ]{.comment-author-link} on [Web Traffic Analyzer A ASP.Net
+    project](https://1000projects.org/web-traffic-analyzer-a-asp-net-project.html/comment-page-1#comment-409078)
+-   [ Sarathi ]{.comment-author-link} on [Placement Management System
+    C\# with XAML
+    Project](https://1000projects.org/placement-management-system-c-with-xaml-project.html/comment-page-1#comment-409072)
+:::
+
+::: {#text-7 .section .widget .widget_text}
+::: {.textwidget}
+\
+\
+[]{.underline}\
+:::
+:::
+
+::: {#recent-posts-5 .section .widget .widget_recent_entries}
+Recent Projects {#recent-projects .widget-title}
+---------------
+
+-   [Veterinary Website Management System Java
+    Project](https://1000projects.org/veterinary-website-management-system-java-project.html)
+-   [PHP Web Projects](https://1000projects.org/php-web-projects.html)
+-   [Python Projects](https://1000projects.org/python-projects.html)
+-   [Village Development System Python
+    Project](https://1000projects.org/village-development-system-python-project.html)
+-   [Article Rewrite or Plagiarism Remover Project in
+    Python](https://1000projects.org/article-rewrite-or-plagiarism-remover-project-in-python.html)
+:::
+
+::: {#categories-2 .section .widget .widget_categories}
+Categories {#categories .widget-title}
+----------
+
+Categories Select Category .Net Project Reports .Net Projects .Net
+Projects 2010 CSE projects 2011 CSE Latest Projects 2011 latest ECE
+projects 2016-17 Projects 2017-18 Java Projects Abstracts Academic
+Projects Advanced ECE & EEE Projects Advanced Mechanical Projects
+Advertising Projects Aeronautical Engg Projects Android Mobile
+Applications Android projects Animation Projects Arduino Projects ARM 11
+Projects ASP.Net Projects Assignments AutoCAD Projects Automobile Engg
+Projects B.SC Computer Seminar Reports BCA Projects BCA Seminar Topics
+Big Data Hadoop Projects BIO Medical Projects Bio Technology Projects
+Bluetooth Projects Bootstrap Projects BSC Final Year Projects Buy
+Projects C\#.Net Projects C++ Projects CAN Protocol Projects Career
+Guidance Case Study Chemical Projects Civil Engineering Projects Civil
+Engineering seminar topics Cloud computing projects Cognos Projects
+Computer Science assignment CSE Mini Projects CSE Paper Presentations
+CSE Project Reports CSE Projects CSE projects Topics CSE Projects with
+Source Code CSE Seminar Reports CSE Seminar Topics CSE Technical Seminar
+PPT Data Mining Projects Data Science Projects Data Warehousing Projects
+DB2 Database Projects DBMS Assignments Design PPT Desktop Applications
+Dissertations Distribution System Project Ideas ECE and EEE Project
+Abstracts ECE Final Year Projects ECE Mini Projects ECE Technical
+Seminar PPT EEE M.Tech Projects EEE seminar topics Electrical
+Presentations PPT Electrical Projects Electrical Seminar Topic
+Electronics Abstracts Electronics projects Topics Electronics Seminar
+Topics Embedded System Abstracts Embedded System Projects English Lab
+Projects Entity Framework Projects ERP Applications Essays Fresher Jobs
+Google Android Projects GPS Projects Graphical LCD Projects GSM Projects
+HTML Projects IIT CSE Projects Industrial Management Projects
+Informatica Projects Inplant Training Internship IOT Projects IPhone
+Apps J2EE Projects Java Abstracts Java Based Projects Java Struts
+Tutorial JavaScript Projects Linux Projects Literature Review on
+Projects Live Projects MA Projects Machine Learning Projects Mainframe
+Projects Manual Testing Projects Matlab MATLAB Projects Maven Projects
+MBA Assignments MBA Dissertations MBA Finance Projects MBA HR Projects
+MBA Projects MBA Seminar Topics MCA PPT Presentation Topics MCA Projects
+MCA Seminar Topics Mechanical engineering project ideas Mechanical
+Projects Mechanical Seminar Topics Micro Controller Projects Mobile
+Applications Mobile Computing MS Dissertation Projects Ms-Access
+projects MSC MCA Projects MSP 430 Projects MTech & ME Projects
+Multimedia Projects MVC Projects MySQL Projects Networking Projects New
+Project Ideas NIT CSE Projects NS2 projects Oracle Database Projects
+Personality Development Php Projects PLC Projects Polytechnic Seminar
+Topics Power Electronics Projects Abstracts Programming Assignments
+Project Ideas Project Reports Project Synopsis projects on image
+processing Python projects QlikView Real Time Projects QlikView Training
+R Programming Projects Raspberry Pi Projects Real Time Project Training
+Real Time Projects Research Articles Research Papers RF Projects
+Robotics Projects Robotics Projects Abstracts Salesforce projects Sample
+Resumes SAP-ABAP Projects Seminar Topics Spring & Hibernate Projects
+Spring MVC Hibernate Projects SQL Server 2017 Projects SQL Server
+Projects SQL Server Tutorial SQLite Database Projects Stand-alone
+Applications Standalone Applications structural Engineering Projects
+Synopsis Technology Telecom Projects Term Papers Thesis Three tier
+Architecture Projects Touch screen projects abstracts Trainings
+Tutorials useful pages VB projects VC++ Projects VHDL Projects VLSI
+Projects Web Applications web based projects in .net Web based projects
+in java XML Projects Zigbee Projects Abstracts
+:::
+
+::: {#text-6 .section .widget .widget_text}
+Subscribe: {#subscribe .widget-title}
+----------
+
+::: {.textwidget}
+  --------------------------
+  **Enter Your Email ID:**
+  --------------------------
+:::
+:::
+
+::: {#search-4 .section .widget .widget_search}
+[ Search for: ]{.screen-reader-text}
+
+[ Search ]{.screen-reader-text}
+:::
+:::
+:::
+
+::: {.wrap}
+::: {.site-info}
+[Proudly powered by WordPress](https://wordpress.org/){.imprint}
+:::
+:::
+:::
+:::

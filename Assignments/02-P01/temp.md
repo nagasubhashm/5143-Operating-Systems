@@ -1,0 +1,12 @@
+
+
+|                                                  | 0 points                               | 1 points                                                                       | 2 points                                                              | 3 points                                                   |
+| ------------------------------------------------ | :------------------------------------- | :----------------------------------------------------------------------------- | :-------------------------------------------------------------------- | :--------------------------------------------------------- |
+| **Creativeness**                                 | Bland, boring                          | Fairly generic, but the colours are nice                                       | Good, works very well and is unique enough                            | Wow\! I never would have thought that would work so well\! |
+| **Effectiveness**                                | I don’t know what this is trying to do | The message isn’t completely clear and it’s difficult to use                   | It’s obvious and simple to use                                        | The project is super effective and easy to use             |
+| **Quality**                                      | Non-existent                           | Acceptable quality, more work could be done                                    | Good quality, up to the expectations of the teacher                   | Stunning quality, this person rocks\!                      |
+| **Effort**                                       | Zero effort, incomplete                | Decent amount of effort                                                        | Goodly amount of effort that shows                                    | Amazing, over-the-top amount of effort                     |
+| **Code quality**                                 | Barely started                         | Indentation is barely existent, lots of validation errors, very poor semantics | Decent indentation, just a couple validation errors, decent semantics | Well indented, fully valid, good semantics                 |
+| Sum the rubric and put that value at the bottom. |                                        |                                                                                |                                                                       |                                                            |
+
+Your grade for the project is tallied to 13/15
