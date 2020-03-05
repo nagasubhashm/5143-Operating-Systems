@@ -53,13 +53,13 @@ class Queue {
     }
 #pragma omp critical(push)
     {
-      cout<<"p1";
+      cout<<"p1"<<c<<" ";
       Q[Rear] = c;
-      cout<<"p2";
+      cout<<"p2"<<c<<" ";
       Rear = (Rear + 1) % ArraySize;
-      cout<<"p3";
+      cout<<"p3"<<c<<" ";
       NumItems++;
-      cout<<"p4\n";
+      cout<<"p4"<<c<<"\n";
     }
     return;
   }
@@ -144,8 +144,8 @@ int main(int argc, char *argv[]) {
   {
     th_id = omp_get_thread_num();
     //#pragma omp critical
-    cout << "Hello World from thread " << th_id << endl;
-    //#pragma omp critical(loop) // LOL :)
+    cout << "Hello World from thread `" << th_id << "`\n";
+    // #pragma omp critical(loop) // LOL :)
     #pragma omp for
     for(int i=0;i<100;i++){
         Q.Push(th_id);
