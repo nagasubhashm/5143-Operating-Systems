@@ -4,6 +4,8 @@
  | [01-A01](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/01-A01) | [ Assignment 1 ](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/01-A01) | [ Getting Started](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/01-A01) | [01-25-2020 (Saturday @ 12:00 p.m.)](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/01-A01) |
  | [02-P01](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/02-P01) | [ Shell Project ](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/02-P01) | [ Implementation of a basic shell.](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/02-P01) | [Multiple Dates](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/02-P01) |
  | [03-A02](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/03-A02) | [ A02 Open MP ](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/03-A02) | [ Getting started](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/03-A02) | [02-18-2020 (Tuesday @ 5:30 p.m.)](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/03-A02) |
+ | [N/A](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/N/A) |
+ | [05-A02](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/05-A02) | [ Wiki Topics Assignments](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/05-A02) | [Due 04-06-2020 (Monday @ 5:30 p.m.)](https://github.com/rugbyprof/5143-Operating-Systems/tree/master/Assignments/05-A02) |
 
     
 ## File Legend
@@ -16,8 +18,4 @@
 |xx-**T**xx | This is a ***Test***. Usually when on github, it will start out as a study guide, then get accompanied with a solution after the exam. |
 
     
-<<<<<<< HEAD
-<sup>Last Updated: 2020-02-24 (Mon @ 15:00)</sup>
-=======
-<sup>Last Updated: 2020-02-25 (Tue @ 01:31)</sup>
->>>>>>> 3b9b673112b21b9b881b67d09be9df3d4e17ccee
+<sup>Last Updated: 2020-03-24 (Tue @ 17:14)</sup>
